@@ -13,9 +13,11 @@ BaseProgram.Run(args, services =>
 {
     services.AddTransient<IProductService, ProductService>();
     services.AddTransient<IProductImageService, ProductImageService>();
+    services.AddTransient<IProductTypeService, ProductTypeService>();
 
     services.AddTransient<IProductRepository, ProductRepository>();
     services.AddTransient<IProductImageRepository, ProductImageRepository>();
+    services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
 
     services.AddSingleton<IESRepository>(sp =>
     {
@@ -39,4 +41,5 @@ BaseProgram.Run(args, services =>
 {
     endpoints.MapGrpcService<ProductService>();
     endpoints.MapGrpcService<ProductImageService>();
+    endpoints.MapGrpcService<ProductTypeService>();
 });

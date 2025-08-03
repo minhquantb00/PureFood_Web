@@ -19,6 +19,7 @@ namespace PureFood.GrpcClient
 
             services.RegisterGrpcClientLoadBalancing<IProductService>(accountManagerUrl);
             services.RegisterGrpcClientLoadBalancing<IProductImageService>(accountManagerUrl);
+            services.RegisterGrpcClientLoadBalancing<IProductTypeService>(accountManagerUrl);
             return services;
         }
     }
