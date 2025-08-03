@@ -1,0 +1,434 @@
+2025-07-28 22:28:29.239 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:28:29.276 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:28:29.308 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:28:29.673 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:28:30.105 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:28:30.128 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:28:30.136 +07:00 [DBG] Hosting starting
+2025-07-28 22:28:30.210 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:28:30.231 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:28:30.245 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:28:30.253 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:28:30.260 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:28:30.268 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:28:30.280 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:28:30.290 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:28:30.635 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:28:30.641 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:28:30.649 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:28:30.653 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:28:30.657 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:28:30.744 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:28:30.764 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:28:30.770 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:28:30.778 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:28:30.785 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:28:30.808 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:28:30.813 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:28:30.831 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:28:30.842 +07:00 [DBG] Middleware loaded
+2025-07-28 22:28:30.850 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:28:30.857 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:28:30.910 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:28:30.918 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:28:30.928 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:28:30.950 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:28:30.961 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:28:30.970 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:28:30.977 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:28:30.984 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:28:30.991 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:28:31.004 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:28:31.014 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:28:31.051 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:28:31.057 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:28:31.061 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:28:31.066 +07:00 [DBG] Hosting started
+2025-07-28 22:30:31.476 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:30:31.601 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:30:31.681 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:30:31.827 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:30:31.951 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:30:31.990 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:30:31.999 +07:00 [DBG] Hosting starting
+2025-07-28 22:30:32.092 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:30:32.109 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:30:32.121 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:30:32.128 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:30:32.136 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:30:32.143 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:30:32.152 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:30:32.160 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:30:32.319 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:30:32.327 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:30:32.333 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:30:32.338 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:30:32.343 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:30:32.433 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:30:32.453 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:30:32.461 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:30:32.474 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:30:32.483 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:30:32.504 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:30:32.509 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:30:32.525 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:30:32.535 +07:00 [DBG] Middleware loaded
+2025-07-28 22:30:32.542 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:30:32.549 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:30:32.604 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:30:32.614 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:30:32.622 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:30:32.644 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:30:32.655 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:30:32.664 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:30:32.671 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:30:32.678 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:30:32.686 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:30:32.701 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:30:32.710 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:30:32.749 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:30:32.754 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:30:32.759 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:30:32.764 +07:00 [DBG] Hosting started
+2025-07-28 22:32:35.450 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:32:35.524 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:32:35.602 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:32:35.743 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:32:35.829 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:32:35.859 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:32:35.867 +07:00 [DBG] Hosting starting
+2025-07-28 22:32:35.992 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:32:36.017 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:32:36.032 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:32:36.046 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:32:36.056 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:32:36.066 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:32:36.086 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:32:36.100 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:32:36.248 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:32:36.256 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:32:36.263 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:32:36.269 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:32:36.275 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:32:36.433 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:32:36.470 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:32:36.477 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:32:36.487 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:32:36.496 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:32:36.525 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:32:36.532 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:32:36.565 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:32:36.587 +07:00 [DBG] Middleware loaded
+2025-07-28 22:32:36.597 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:32:36.604 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:32:36.702 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:32:36.712 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:32:36.722 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:32:36.751 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:32:36.768 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:32:36.777 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:32:36.788 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:32:36.796 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:32:36.805 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:32:36.819 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:32:36.842 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:32:36.909 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:32:36.915 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:32:36.920 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:32:36.926 +07:00 [DBG] Hosting started
+2025-07-28 22:34:13.252 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:34:13.292 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:34:13.336 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:34:13.686 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.SendMessageCommand
+2025-07-28 22:34:13.691 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailService.SendEmail; method will not be bound
+2025-07-28 22:34:13.754 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:34:13.819 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:34:13.839 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:34:13.847 +07:00 [DBG] Hosting starting
+2025-07-28 22:34:13.904 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:34:13.922 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:34:13.938 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:34:13.946 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:34:13.959 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:34:13.971 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:34:13.981 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:34:13.992 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:34:14.175 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:34:14.184 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:34:14.191 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:34:14.196 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:34:14.202 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:34:14.265 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:34:14.285 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:34:14.292 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:34:14.300 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:34:14.309 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:34:14.326 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:34:14.332 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:34:14.349 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:34:14.360 +07:00 [DBG] Middleware loaded
+2025-07-28 22:34:14.367 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:34:14.373 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:34:14.421 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:34:14.430 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:34:14.438 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:34:14.461 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:34:14.474 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:34:14.486 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:34:14.496 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:34:14.504 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:34:14.512 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:34:14.525 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:34:14.535 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:34:14.577 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:34:14.586 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:34:14.592 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:34:14.598 +07:00 [DBG] Hosting started
+2025-07-28 22:36:45.527 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:36:45.660 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:36:45.756 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:36:45.801 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.SendMessageCommand
+2025-07-28 22:36:45.809 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailService.SendEmail; method will not be bound
+2025-07-28 22:36:45.952 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:36:46.038 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:36:46.075 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:36:46.082 +07:00 [DBG] Hosting starting
+2025-07-28 22:36:46.292 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:36:46.325 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:36:46.344 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:36:46.357 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:36:46.365 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:36:46.373 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:36:46.386 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:36:46.401 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:36:46.686 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:36:46.695 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:36:46.703 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:36:46.711 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:36:46.721 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:36:46.849 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:36:46.888 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:36:46.913 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:36:46.928 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:36:46.938 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:36:46.973 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:36:46.985 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:36:47.017 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:36:47.038 +07:00 [DBG] Middleware loaded
+2025-07-28 22:36:47.052 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:36:47.090 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:36:47.188 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:36:47.200 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:36:47.208 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:36:47.229 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:36:47.237 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:36:47.245 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:36:47.251 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:36:47.258 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:36:47.264 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:36:47.275 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:36:47.282 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:36:47.323 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:36:47.328 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:36:47.333 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:36:47.338 +07:00 [DBG] Hosting started
+2025-07-28 22:39:19.461 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:39:19.502 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:39:19.546 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:39:19.594 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailService: 1
+2025-07-28 22:39:19.681 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:39:19.747 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:39:19.769 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:39:19.779 +07:00 [DBG] Hosting starting
+2025-07-28 22:39:19.876 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:39:19.897 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:39:19.911 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:39:19.918 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:39:19.926 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:39:19.934 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:39:19.944 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:39:19.951 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:39:20.228 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:39:20.236 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:39:20.243 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:39:20.248 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:39:20.253 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:39:20.365 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:39:20.387 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:39:20.393 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:39:20.402 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:39:20.410 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:39:20.431 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:39:20.436 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:39:20.452 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:39:20.465 +07:00 [DBG] Middleware loaded
+2025-07-28 22:39:20.471 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:39:20.478 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:39:20.530 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:39:20.538 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:39:20.549 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:39:20.571 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:39:20.581 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:39:20.591 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:39:20.600 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:39:20.609 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:39:20.617 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:39:20.632 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:39:20.643 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:39:20.700 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:39:20.705 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:39:20.711 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:39:20.716 +07:00 [DBG] Hosting started
+2025-07-28 22:39:32.249 +07:00 [DBG] Connection id "0HNEDTJP9EQDQ" accepted.
+2025-07-28 22:39:32.263 +07:00 [DBG] Connection id "0HNEDTJP9EQDQ" started.
+2025-07-28 22:39:32.358 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-07-28 22:39:32.505 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-07-28 22:39:32.606 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "SETTINGS" frame for stream ID 0 with length 12 and flags "NONE".
+2025-07-28 22:39:32.637 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-07-28 22:39:32.670 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-07-28 22:39:32.685 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "HEADERS" frame for stream ID 1 with length 395 and flags "END_HEADERS".
+2025-07-28 22:39:32.730 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "RST_STREAM" frame for stream ID 1 with length 4 and flags 0x0.
+2025-07-28 22:39:32.807 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30002/PureFood.EmailManager.Shared.EmailService/SendEmail - application/grpc null
+2025-07-28 22:39:32.826 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-07-28 22:39:32.985 +07:00 [VRB] All hosts are allowed.
+2025-07-28 22:39:33.079 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.137 +07:00 [DBG] Endpoint 'gRPC - /PureFood.EmailManager.Shared.EmailService/SendEmail' with route pattern '/PureFood.EmailManager.Shared.EmailService/SendEmail' is valid for the request path '/PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.184 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.EmailManager.Shared.EmailService' with route pattern 'PureFood.EmailManager.Shared.EmailService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.200 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.212 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.232 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-07-28 22:39:33.316 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-07-28 22:39:33.395 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-07-28 22:39:33.451 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.487 +07:00 [INF] Error reading message.
+System.IO.IOException: The client reset the request stream.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestPipeReader.ReadAsync(CancellationToken cancellationToken)
+   at Grpc.AspNetCore.Server.Internal.PipeExtensions.ReadSingleMessageAsync[T](PipeReader input, HttpContextServerCallContext serverCallContext, Func`2 deserializer)
+2025-07-28 22:39:33.543 +07:00 [ERR] Error when executing service method 'SendEmail'.
+System.IO.IOException: The client reset the request stream.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestPipeReader.ReadAsync(CancellationToken cancellationToken)
+   at Grpc.AspNetCore.Server.Internal.PipeExtensions.ReadSingleMessageAsync[T](PipeReader input, HttpContextServerCallContext serverCallContext, Func`2 deserializer)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2025-07-28 22:39:33.740 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.EmailManager.Shared.EmailService/SendEmail'
+2025-07-28 22:39:33.774 +07:00 [INF] HTTP POST /PureFood.EmailManager.Shared.EmailService/SendEmail responded 200 in 747.2017 ms
+2025-07-28 22:39:33.797 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30002/PureFood.EmailManager.Shared.EmailService/SendEmail - 499 null application/grpc 994.4769ms
+2025-07-28 22:40:39.794 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-07-28 22:40:39.810 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-07-28 22:41:47.282 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-07-28 22:41:47.293 +07:00 [VRB] Connection id "0HNEDTJP9EQDQ" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-07-28 22:43:37.099 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:43:37.163 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:43:37.233 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:43:37.253 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailService: 1
+2025-07-28 22:43:37.370 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:43:37.441 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:43:37.462 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:43:37.468 +07:00 [DBG] Hosting starting
+2025-07-28 22:43:37.548 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:43:37.566 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:43:37.581 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:43:37.588 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:43:37.595 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:43:37.603 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:43:37.616 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:43:37.625 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:43:37.849 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:43:37.857 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:43:37.864 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:43:37.869 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:43:37.873 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:43:37.962 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:43:37.998 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:43:38.005 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:43:38.015 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:43:38.022 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:43:38.041 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:43:38.045 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:43:38.065 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:43:38.076 +07:00 [DBG] Middleware loaded
+2025-07-28 22:43:38.083 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:43:38.089 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:43:38.136 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:43:38.149 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:43:38.157 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:43:38.175 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:43:38.184 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:43:38.193 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:43:38.200 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:43:38.208 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:43:38.213 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:43:38.224 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:43:38.235 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:43:38.268 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:43:38.275 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:43:38.279 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:43:38.284 +07:00 [DBG] Hosting started
+2025-07-28 22:47:43.659 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:47:43.737 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:47:43.810 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:47:43.853 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailService: 1
+2025-07-28 22:47:44.011 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:47:44.105 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:47:44.136 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:47:44.144 +07:00 [DBG] Hosting starting
+2025-07-28 22:47:44.228 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:47:44.251 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:47:44.266 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:47:44.275 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:47:44.288 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:47:44.299 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:47:44.311 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:47:44.326 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:47:44.598 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:47:44.606 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:47:44.613 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:47:44.618 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:47:44.622 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-28 22:47:44.723 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-28 22:47:44.746 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-28 22:47:44.752 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-28 22:47:44.761 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:47:44.768 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-28 22:47:44.790 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-28 22:47:44.797 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-28 22:47:44.821 +07:00 [INF] EmailHostedService is starting
+2025-07-28 22:47:44.836 +07:00 [DBG] Middleware loaded
+2025-07-28 22:47:44.847 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-07-28 22:47:44.853 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-28 22:47:44.929 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-28 22:47:44.942 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-28 22:47:44.965 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-28 22:47:45.000 +07:00 [WRN] Overriding address(es) 'https://localhost:7094, http://localhost:5228'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-28 22:47:45.020 +07:00 [INF] Now listening on: http://[::]:30002
+2025-07-28 22:47:45.032 +07:00 [DBG] Loaded hosting startup assembly PureFood.EmailManager
+2025-07-28 22:47:45.037 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-28 22:47:45.045 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-28 22:47:45.059 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-28 22:47:45.076 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:47:45.085 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-28 22:47:45.146 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-28 22:47:45.154 +07:00 [INF] Hosting environment: Development
+2025-07-28 22:47:45.160 +07:00 [INF] Content root path: D:\PureFood\PureFood.EmailManager
+2025-07-28 22:47:45.166 +07:00 [DBG] Hosting started
+2025-07-28 22:53:30.686 +07:00 [WRN] Type cannot be serialized; ignoring: PureFood.EmailCommands.Commands.EmailCreateQueuedFromTemplateCommand
+2025-07-28 22:53:30.745 +07:00 [WRN] Signature not recognized for PureFood.EmailManager.Shared.IEmailQueueService.CreateQueuedEmailFromTemplateAsync; method will not be bound
+2025-07-28 22:53:30.801 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailQueueService: 1
+2025-07-28 22:53:30.825 +07:00 [INF] RPC services being provided by PureFood.EmailManager.Services.EmailService: 1
+2025-07-28 22:53:30.887 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-28 22:53:30.947 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-28 22:53:30.969 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-28 22:53:30.979 +07:00 [DBG] Hosting starting
+2025-07-28 22:53:31.043 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-28 22:53:31.066 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-28 22:53:31.084 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-28 22:53:31.093 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-28 22:53:31.102 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-28 22:53:31.109 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-28 22:53:31.119 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-28 22:53:31.129 +07:00 [INF] AppInitHostedService is starting.
+2025-07-28 22:53:31.273 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-28 22:53:31.281 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-28 22:53:31.288 +07:00 [INF] RabbitMQ Client is null
+2025-07-28 22:53:31.292 +07:00 [INF] RabbitMQ Client is closed
+2025-07-28 22:53:31.297 +07:00 [INF] RabbitMQ Cli

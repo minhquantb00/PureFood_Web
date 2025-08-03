@@ -1,0 +1,6 @@
+@PureFood.CustomerAppApi_HostAddress = http://localhost:5204
+
+GET {{PureFood.CustomerAppApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

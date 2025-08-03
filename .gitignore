@@ -1,0 +1,17 @@
+**/appsettings.json
+**/appsettings.*.json
+bin/
+obj/
+.vs/
+*.user
+*.suo
+secrets.json
+*.log
+**/appsettings.json
+**/appsettings.*.json
+
+PureFood.AccountManager/appsettings.json PureFood.CartManager/appsettings.json PureFood.CustomerApi/appsettings.json PureFood.CustomerAppApi/appsettings.json PureFood.EmailManager/appsettings.json PureFood.FileUpload/appsettings.json PureFood.ProductManager/appsettings.json PureFood.ServiceCMS/appsettings.json PureFood.SystemManager/appsettings.json
+PureFood.AccountManager/appsettings.Development.json PureFood.CartManager/appsettings.Development.json PureFood.CustomerApi/appsettings.Development.json PureFood.CustomerAppApi/appsettings.Development.json PureFood.EmailManager/appsettings.Development.json PureFood.FileUpload/appsettings.Development.json PureFood.ProductManager/appsettings.Development.json PureFood.ServiceCMS/appsettings.Development.json PureFood.SystemManager/appsettings.Development.json
+bin/
+obj/
+.vs/

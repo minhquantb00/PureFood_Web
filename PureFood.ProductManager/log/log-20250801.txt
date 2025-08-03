@@ -1,0 +1,473 @@
+2025-08-01 17:37:56.030 +07:00 [INF] RPC services being provided by PureFood.ProductManager.Services.ProductService: 4
+2025-08-01 17:37:56.553 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-01 17:37:56.891 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-01 17:37:56.947 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-08-01 17:37:56.965 +07:00 [DBG] Hosting starting
+2025-08-01 17:37:57.115 +07:00 [DBG] Found key {544af971-9dcf-4db4-bb92-231966432ceb}.
+2025-08-01 17:37:57.146 +07:00 [DBG] Considering key {544af971-9dcf-4db4-bb92-231966432ceb} with expiration date 2025-10-28 08:01:11Z as default key.
+2025-08-01 17:37:57.163 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-08-01 17:37:57.180 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-08-01 17:37:57.188 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-08-01 17:37:57.197 +07:00 [DBG] Using key {544af971-9dcf-4db4-bb92-231966432ceb} as the default key.
+2025-08-01 17:37:57.214 +07:00 [DBG] Key ring with default key {544af971-9dcf-4db4-bb92-231966432ceb} was loaded during application startup.
+2025-08-01 17:37:57.228 +07:00 [INF] AppInitHostedService is starting.
+2025-08-01 17:37:57.662 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.product topic
+2025-08-01 17:37:57.672 +07:00 [INF] RegisterExchange:dev.exchange.product
+2025-08-01 17:37:57.679 +07:00 [INF] RabbitMQ Client is null
+2025-08-01 17:37:57.686 +07:00 [INF] RabbitMQ Client is closed
+2025-08-01 17:37:57.691 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-08-01 17:37:57.816 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-08-01 17:37:57.862 +07:00 [INF] RegisterExchange:dev.exchange.product
+2025-08-01 17:37:57.872 +07:00 [INF] RegisterQueue:dev.queue.product --- dev.routing.product
+2025-08-01 17:37:57.906 +07:00 [INF] CreateConsumerChannel: dev.queue.product
+2025-08-01 17:37:57.911 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-08-01 17:37:57.934 +07:00 [INF] ProductHostedService is starting
+2025-08-01 17:37:57.953 +07:00 [DBG] Middleware loaded
+2025-08-01 17:37:57.962 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16531 B).
+2025-08-01 17:37:57.969 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-01 17:37:58.036 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-01 17:37:58.046 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-01 17:37:58.057 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-01 17:37:58.084 +07:00 [WRN] Overriding address(es) 'https://localhost:7014, http://localhost:5063'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-01 17:37:58.096 +07:00 [INF] Now listening on: http://[::]:30008
+2025-08-01 17:37:58.104 +07:00 [DBG] Loaded hosting startup assembly PureFood.ProductManager
+2025-08-01 17:37:58.113 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-01 17:37:58.120 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-01 17:37:58.128 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-01 17:37:58.146 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-01 17:37:58.155 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-01 17:37:58.200 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-01 17:37:58.209 +07:00 [INF] Hosting environment: Development
+2025-08-01 17:37:58.214 +07:00 [INF] Content root path: D:\PureFood\PureFood.ProductManager
+2025-08-01 17:37:58.220 +07:00 [DBG] Hosting started
+2025-08-01 17:38:58.724 +07:00 [DBG] Connection id "0HNEGSUFMQCRV" accepted.
+2025-08-01 17:38:58.732 +07:00 [DBG] Connection id "0HNEGSUFMQCRV" started.
+2025-08-01 17:38:58.754 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-08-01 17:38:58.772 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:38:58.781 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "SETTINGS" frame for stream ID 0 with length 12 and flags "NONE".
+2025-08-01 17:38:58.794 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-08-01 17:38:58.805 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:38:58.813 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "HEADERS" frame for stream ID 1 with length 802 and flags "END_HEADERS".
+2025-08-01 17:38:58.840 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 1 with length 89 and flags "NONE".
+2025-08-01 17:38:58.857 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-08-01 17:38:58.859 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Gets - application/grpc null
+2025-08-01 17:38:58.865 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-08-01 17:38:58.889 +07:00 [VRB] All hosts are allowed.
+2025-08-01 17:38:59.096 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:38:59.113 +07:00 [DBG] Endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets' with route pattern '/PureFood.ProductManager.Shared.ProductService/Gets' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:38:59.124 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.ProductManager.Shared.ProductService' with route pattern 'PureFood.ProductManager.Shared.ProductService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:38:59.136 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:38:59.163 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:38:59.174 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-01 17:38:59.188 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-08-01 17:38:59.219 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-01 17:38:59.233 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:38:59.259 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000001": started reading request body.
+2025-08-01 17:38:59.270 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000001": done reading request body.
+2025-08-01 17:39:02.193 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:39:02.241 +07:00 [INF] HTTP POST /PureFood.ProductManager.Shared.ProductService/Gets responded 200 in 3160.7136 ms
+2025-08-01 17:39:02.274 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 1 with length 59 and flags "END_HEADERS".
+2025-08-01 17:39:02.274 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Gets - 200 null application/grpc 3417.2501ms
+2025-08-01 17:39:02.283 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "DATA" frame for stream ID 1 with length 422 and flags "NONE".
+2025-08-01 17:39:02.303 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 1 with length 15 and flags "END_STREAM, END_HEADERS".
+2025-08-01 17:39:02.313 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:39:02.321 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:40:06.222 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:40:06.235 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:40:59.329 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'Default'
+2025-08-01 17:41:09.357 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:41:09.369 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.8152ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:41:13.719 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:41:13.729 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:41:19.375 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:41:19.382 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1134ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:41:29.396 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:41:29.405 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:41:39.417 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:41:39.431 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0066ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:41:49.447 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:41:49.457 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1067ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:41:59.465 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:41:59.480 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:42:09.502 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:42:09.512 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:42:19.529 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:42:19.542 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0057ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:42:21.226 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:42:21.235 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:42:29.562 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:42:29.573 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:42:39.594 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:42:39.608 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:42:49.637 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:42:49.644 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:42:59.651 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:42:59.656 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:43:09.668 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:43:09.686 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:43:19.709 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:43:19.748 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:43:28.725 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:43:28.739 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:43:29.781 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:43:29.792 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:43:39.817 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:43:39.835 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:43:49.862 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:43:49.864 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:43:59.879 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:43:59.889 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:44:09.917 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:44:09.954 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:44:19.980 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:44:19.989 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:44:30.010 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:44:30.017 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:44:36.220 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:44:36.230 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:44:40.027 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:44:40.036 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:44:50.045 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:44:50.055 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:45:00.065 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:45:00.073 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:45:10.096 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:45:10.103 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:45:20.111 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:45:20.114 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:45:30.125 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:45:30.133 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:45:40.153 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:45:40.160 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:45:43.717 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:45:43.722 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:45:50.176 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:45:50.178 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:00.189 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:46:00.193 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:10.211 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:46:10.215 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:20.232 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:46:20.278 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:30.295 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:46:30.303 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:40.315 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:46:40.319 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:50.323 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:46:50.328 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:46:51.222 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:46:51.226 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:47:00.348 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:47:00.352 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:47:10.363 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:47:10.366 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:47:20.372 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:47:20.380 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:47:30.395 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:47:30.401 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:47:40.412 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:47:40.415 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:47:50.428 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:47:50.433 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:47:58.714 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:47:58.718 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:48:00.453 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:48:00.461 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:48:10.479 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:48:10.483 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:48:20.494 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:48:20.498 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:48:30.508 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:48:30.511 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:48:40.523 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:48:40.525 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:48:50.531 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:48:50.539 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:49:00.558 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:49:00.561 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:49:06.217 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:49:06.226 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:49:10.566 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:49:10.577 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:49:20.633 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:49:20.636 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:49:30.653 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:49:30.656 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:49:40.672 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:49:40.676 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:49:50.686 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:49:50.689 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:50:00.701 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:50:00.710 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:50:10.735 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:50:10.739 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:50:13.719 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:50:13.776 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:50:20.745 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:50:20.755 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:50:30.771 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:50:30.777 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:50:40.790 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:50:40.802 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:50:50.809 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:50:50.813 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:51:00.825 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:51:00.832 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:51:10.850 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:51:10.855 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:51:20.867 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:51:20.886 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:51:21.223 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:51:21.232 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:51:30.900 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:51:30.910 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:51:40.923 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:51:40.926 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:51:50.931 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:51:50.934 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:52:00.947 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:52:00.953 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:52:10.964 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:52:10.972 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:52:20.993 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:52:20.996 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:52:28.718 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:52:28.750 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:52:30.999 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:52:31.003 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:52:41.010 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:52:41.016 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:52:51.032 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:52:51.043 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:53:01.068 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:53:01.079 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:53:11.089 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:53:11.106 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:53:21.132 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:53:21.144 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:53:31.155 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:53:31.198 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:53:36.226 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:53:36.234 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:53:41.229 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:53:41.232 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:53:51.245 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:53:51.263 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:54:01.278 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:54:01.293 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:54:11.313 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:54:11.319 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:54:21.339 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:54:21.357 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:54:31.385 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:54:31.451 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:54:41.467 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:54:41.475 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:54:43.731 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:54:43.747 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:54:51.482 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:54:51.492 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:55:01.500 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:55:01.510 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:55:07.797 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "HEADERS" frame for stream ID 3 with length 802 and flags "END_HEADERS".
+2025-08-01 17:55:07.809 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 3 with length 83 and flags "NONE".
+2025-08-01 17:55:07.809 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Gets - application/grpc null
+2025-08-01 17:55:07.817 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-08-01 17:55:07.826 +07:00 [VRB] All hosts are allowed.
+2025-08-01 17:55:07.844 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:07.853 +07:00 [DBG] Endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets' with route pattern '/PureFood.ProductManager.Shared.ProductService/Gets' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:07.863 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.ProductManager.Shared.ProductService' with route pattern 'PureFood.ProductManager.Shared.ProductService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:07.873 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:07.885 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:07.893 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-01 17:55:07.904 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-08-01 17:55:07.916 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-01 17:55:07.940 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:07.947 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000003": started reading request body.
+2025-08-01 17:55:07.957 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000003": done reading request body.
+2025-08-01 17:55:09.624 +07:00 [ERR] SqlException  Microsoft.Data.SqlClient.SqlException The number of rows provided for a FETCH clause must be greater then zero.
+Microsoft.Data.SqlClient.SqlException (0x80131904): The number of rows provided for a FETCH clause must be greater then zero.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 452
+   at PureFood.ProductRepositorySQLImplement.ProductRepository.<>c__DisplayClass3_0.<<Gets>b__0>d.MoveNext() in D:\PureFood\PureFood.ProductRepositorySQLImplement\ProductRepository.cs:line 50
+--- End of stack trace from previous location ---
+   at PureFood.BaseRepositories.DbConnectionFactory.WithConnection[T](Func`2 getData) in D:\PureFood\PureFood.BaseRepositories\DbConnectionFactory.cs:line 37
+ClientConnectionId:a5e28391-3834-4cb5-a223-a3ea21c78989
+Error Number:10744,State:1,Class:15
+2025-08-01 17:55:09.989 +07:00 [ERR] BaseEventHandler Exception The number of rows provided for a FETCH clause must be greater then zero.
+Microsoft.Data.SqlClient.SqlException (0x80131904): The number of rows provided for a FETCH clause must be greater then zero.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 452
+   at PureFood.ProductRepositorySQLImplement.ProductRepository.<>c__DisplayClass3_0.<<Gets>b__0>d.MoveNext() in D:\PureFood\PureFood.ProductRepositorySQLImplement\ProductRepository.cs:line 50
+--- End of stack trace from previous location ---
+   at PureFood.BaseRepositories.DbConnectionFactory.WithConnection[T](Func`2 getData) in D:\PureFood\PureFood.BaseRepositories\DbConnectionFactory.cs:line 37
+   at PureFood.ProductRepositorySQLImplement.ProductRepository.Gets(ProductGetsQuery query) in D:\PureFood\PureFood.ProductRepositorySQLImplement\ProductRepository.cs:line 43
+   at PureFood.ProductManager.Services.ProductService.<>c__DisplayClass5_0.<<Gets>b__0>d.MoveNext() in D:\PureFood\PureFood.ProductManager\Services\ProductService.cs:line 104
+--- End of stack trace from previous location ---
+   at PureFood.BaseApplication.Services.BaseService.ProcessCommand[T](Func`2 processFunc) in D:\PureFood\PureFood.BaseApplication\Services\BaseService.cs:line 95
+ClientConnectionId:a5e28391-3834-4cb5-a223-a3ea21c78989
+Error Number:10744,State:1,Class:15
+2025-08-01 17:55:10.032 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Gets'
+2025-08-01 17:55:10.039 +07:00 [INF] HTTP POST /PureFood.ProductManager.Shared.ProductService/Gets responded 200 in 2197.2401 ms
+2025-08-01 17:55:10.046 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 3 with length 34 and flags "END_HEADERS".
+2025-08-01 17:55:10.046 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Gets - 200 null application/grpc 2236.1996ms
+2025-08-01 17:55:10.054 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "DATA" frame for stream ID 3 with length 95 and flags "NONE".
+2025-08-01 17:55:10.090 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 3 with length 1 and flags "END_STREAM, END_HEADERS".
+2025-08-01 17:55:10.101 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:55:10.114 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:55:10.123 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:55:11.532 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:55:11.543 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:55:21.568 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:55:21.574 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:55:31.590 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:55:31.604 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:55:41.621 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:55:41.632 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:55:51.654 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:55:51.658 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:56:01.675 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:56:01.680 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:56:11.693 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:56:11.707 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:56:13.720 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:56:13.748 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:56:21.727 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:56:21.738 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:56:31.761 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:56:31.776 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:56:41.788 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:56:41.801 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:56:51.825 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:56:51.838 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:57:01.856 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:57:01.868 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:57:11.882 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:57:11.892 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:57:21.235 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:57:21.248 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:57:21.907 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:57:21.914 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:57:31.929 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:57:31.943 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:57:41.976 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:57:41.990 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:57:46.760 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "HEADERS" frame for stream ID 5 with length 801 and flags "END_HEADERS".
+2025-08-01 17:57:46.773 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 5 with length 83 and flags "NONE".
+2025-08-01 17:57:46.773 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Get - application/grpc null
+2025-08-01 17:57:46.782 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-08-01 17:57:46.792 +07:00 [VRB] All hosts are allowed.
+2025-08-01 17:57:46.809 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.821 +07:00 [DBG] Endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get' with route pattern '/PureFood.ProductManager.Shared.ProductService/Get' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.831 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.ProductManager.Shared.ProductService' with route pattern 'PureFood.ProductManager.Shared.ProductService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.842 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.853 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.860 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-01 17:57:46.870 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-08-01 17:57:46.881 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-01 17:57:46.892 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.901 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000005": started reading request body.
+2025-08-01 17:57:46.910 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000005": done reading request body.
+2025-08-01 17:57:46.923 +07:00 [ERR] BaseEventHandler Error Query Id is null or empty
+2025-08-01 17:57:46.936 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:57:46.946 +07:00 [INF] HTTP POST /PureFood.ProductManager.Shared.ProductService/Get responded 200 in 137.5637 ms
+2025-08-01 17:57:46.953 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Get - 200 null application/grpc 179.8731ms
+2025-08-01 17:57:46.953 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 5 with length 34 and flags "END_HEADERS".
+2025-08-01 17:57:46.969 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "DATA" frame for stream ID 5 with length 47 and flags "NONE".
+2025-08-01 17:57:46.976 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 5 with length 1 and flags "END_STREAM, END_HEADERS".
+2025-08-01 17:57:46.984 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:57:46.994 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:57:47.006 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:57:52.011 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:57:52.020 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:58:02.039 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:58:02.056 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:58:09.521 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "HEADERS" frame for stream ID 7 with length 801 and flags "END_HEADERS".
+2025-08-01 17:58:09.531 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 7 with length 83 and flags "NONE".
+2025-08-01 17:58:09.531 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Get - application/grpc null
+2025-08-01 17:58:09.541 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2025-08-01 17:58:09.552 +07:00 [VRB] All hosts are allowed.
+2025-08-01 17:58:09.572 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.581 +07:00 [DBG] Endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get' with route pattern '/PureFood.ProductManager.Shared.ProductService/Get' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.590 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.ProductManager.Shared.ProductService' with route pattern 'PureFood.ProductManager.Shared.ProductService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.600 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.621 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.640 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-01 17:58:09.650 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-08-01 17:58:09.658 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-01 17:58:09.667 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.674 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000007": started reading request body.
+2025-08-01 17:58:09.683 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000007": done reading request body.
+2025-08-01 17:58:09.689 +07:00 [ERR] BaseEventHandler Error Query Id is null or empty
+2025-08-01 17:58:09.696 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:09.704 +07:00 [INF] HTTP POST /PureFood.ProductManager.Shared.ProductService/Get responded 200 in 131.6824 ms
+2025-08-01 17:58:09.709 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Get - 200 null application/grpc 177.8924ms
+2025-08-01 17:58:09.709 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 7 with length 34 and flags "END_HEADERS".
+2025-08-01 17:58:09.737 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "DATA" frame for stream ID 7 with length 47 and flags "NONE".
+2025-08-01 17:58:09.744 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 7 with length 1 and flags "END_STREAM, END_HEADERS".
+2025-08-01 17:58:09.753 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:58:09.770 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:58:09.778 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:58:12.089 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:58:12.102 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:58:15.464 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "HEADERS" frame for stream ID 9 with length 801 and flags "END_HEADERS".
+2025-08-01 17:58:15.474 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 9 with length 93 and flags "NONE".
+2025-08-01 17:58:15.475 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Get - application/grpc null
+2025-08-01 17:58:15.486 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-08-01 17:58:15.492 +07:00 [VRB] All hosts are allowed.
+2025-08-01 17:58:15.516 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.522 +07:00 [DBG] Endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get' with route pattern '/PureFood.ProductManager.Shared.ProductService/Get' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.530 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.ProductManager.Shared.ProductService' with route pattern 'PureFood.ProductManager.Shared.ProductService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.539 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.547 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.554 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-01 17:58:15.562 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-08-01 17:58:15.570 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-01 17:58:15.578 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.587 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000009": started reading request body.
+2025-08-01 17:58:15.595 +07:00 [DBG] Connection id "0HNEGSUFMQCRV", Request id "0HNEGSUFMQCRV:00000009": done reading request body.
+2025-08-01 17:58:15.626 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.ProductManager.Shared.ProductService/Get'
+2025-08-01 17:58:15.635 +07:00 [INF] HTTP POST /PureFood.ProductManager.Shared.ProductService/Get responded 200 in 119.2276 ms
+2025-08-01 17:58:15.658 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30008/PureFood.ProductManager.Shared.ProductService/Get - 200 null application/grpc 183.2872ms
+2025-08-01 17:58:15.658 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 9 with length 34 and flags "END_HEADERS".
+2025-08-01 17:58:15.683 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "DATA" frame for stream ID 9 with length 422 and flags "NONE".
+2025-08-01 17:58:15.705 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "HEADERS" frame for stream ID 9 with length 1 and flags "END_STREAM, END_HEADERS".
+2025-08-01 17:58:15.714 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:58:15.723 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:58:15.729 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:58:22.120 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:58:22.130 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:58:32.151 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:58:32.154 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:58:42.162 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:58:42.166 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:58:52.174 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:58:52.184 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:59:02.197 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:59:02.206 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:59:12.218 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:59:12.229 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:59:21.234 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:59:21.248 +07:00 [VRB] Connection id "0HNEGSUFMQCRV" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:59:22.247 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:59:22.275 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:59:32.288 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:59:32.300 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-01 17:59:42.313 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-01 17:59:42.326 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items

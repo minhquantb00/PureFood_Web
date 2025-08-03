@@ -1,0 +1,353 @@
+2025-08-01 17:37:56.382 +07:00 [INF] RPC services being provided by PureFood.AccountManager.Services.AccountService: 10
+2025-08-01 17:37:56.482 +07:00 [INF] RPC services being provided by PureFood.AccountManager.Services.OTPLimitService: 1
+2025-08-01 17:37:56.958 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-01 17:37:57.479 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-01 17:37:57.506 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-08-01 17:37:57.515 +07:00 [DBG] Hosting starting
+2025-08-01 17:37:57.906 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-08-01 17:37:57.929 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-08-01 17:37:57.948 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-08-01 17:37:57.961 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-08-01 17:37:57.969 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-08-01 17:37:57.977 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-08-01 17:37:57.986 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-08-01 17:37:57.994 +07:00 [INF] AppInitHostedService is starting.
+2025-08-01 17:37:58.223 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-08-01 17:37:58.230 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-08-01 17:37:58.237 +07:00 [INF] RabbitMQ Client is null
+2025-08-01 17:37:58.242 +07:00 [INF] RabbitMQ Client is closed
+2025-08-01 17:37:58.246 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-08-01 17:37:58.324 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-08-01 17:37:58.353 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-08-01 17:37:58.360 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-08-01 17:37:58.368 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-08-01 17:37:58.376 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-08-01 17:37:58.398 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-08-01 17:37:58.403 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-08-01 17:37:58.422 +07:00 [INF] AccountHostedService is starting
+2025-08-01 17:37:58.435 +07:00 [DBG] Middleware loaded
+2025-08-01 17:37:58.442 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16531 B).
+2025-08-01 17:37:58.447 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-01 17:37:58.496 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-01 17:37:58.505 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-01 17:37:58.513 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-01 17:37:58.534 +07:00 [WRN] Overriding address(es) 'https://localhost:7241, http://localhost:5277'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-01 17:37:58.547 +07:00 [INF] Now listening on: http://[::]:30001
+2025-08-01 17:37:58.555 +07:00 [DBG] Loaded hosting startup assembly PureFood.AccountManager
+2025-08-01 17:37:58.562 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-01 17:37:58.570 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-01 17:37:58.578 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-01 17:37:58.594 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-01 17:37:58.604 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-01 17:37:58.649 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-01 17:37:58.656 +07:00 [INF] Hosting environment: Development
+2025-08-01 17:37:58.661 +07:00 [INF] Content root path: D:\PureFood\PureFood.AccountManager
+2025-08-01 17:37:58.666 +07:00 [DBG] Hosting started
+2025-08-01 17:38:27.720 +07:00 [DBG] Connection id "0HNEGSU6F4L7B" accepted.
+2025-08-01 17:38:27.728 +07:00 [DBG] Connection id "0HNEGSU6F4L7B" started.
+2025-08-01 17:38:27.772 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-08-01 17:38:27.785 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:38:27.794 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "SETTINGS" frame for stream ID 0 with length 12 and flags "NONE".
+2025-08-01 17:38:27.805 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-08-01 17:38:27.812 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-08-01 17:38:27.825 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "HEADERS" frame for stream ID 1 with length 395 and flags "END_HEADERS".
+2025-08-01 17:38:27.845 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-08-01 17:38:27.860 +07:00 [INF] Request starting HTTP/2 POST http://localhost:30001/PureFood.AccountManager.Shared.AccountService/Login - application/grpc null
+2025-08-01 17:38:27.861 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "DATA" frame for stream ID 1 with length 106 and flags "NONE".
+2025-08-01 17:38:27.889 +07:00 [VRB] All hosts are allowed.
+2025-08-01 17:38:27.891 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-08-01 17:38:27.928 +07:00 [DBG] 3 candidate(s) found for the request path '/PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:27.940 +07:00 [DBG] Endpoint 'gRPC - /PureFood.AccountManager.Shared.AccountService/Login' with route pattern '/PureFood.AccountManager.Shared.AccountService/Login' is valid for the request path '/PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:27.947 +07:00 [DBG] Endpoint 'gRPC - Unimplemented method for PureFood.AccountManager.Shared.AccountService' with route pattern 'PureFood.AccountManager.Shared.AccountService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:27.959 +07:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:27.971 +07:00 [DBG] Request matched endpoint 'gRPC - /PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:27.980 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-01 17:38:27.991 +07:00 [DBG] No response compression available, the Accept-Encoding header is missing or invalid.
+2025-08-01 17:38:28.015 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-01 17:38:28.027 +07:00 [INF] Executing endpoint 'gRPC - /PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:28.045 +07:00 [DBG] Connection id "0HNEGSU6F4L7B", Request id "0HNEGSU6F4L7B:00000001": started reading request body.
+2025-08-01 17:38:28.055 +07:00 [DBG] Connection id "0HNEGSU6F4L7B", Request id "0HNEGSU6F4L7B:00000001": done reading request body.
+2025-08-01 17:38:32.740 +07:00 [INF] ExChange = dev.exchange.account
+2025-08-01 17:38:32.747 +07:00 [INF] RoutingKey = dev.routing..account
+2025-08-01 17:38:32.777 +07:00 [INF] Executed endpoint 'gRPC - /PureFood.AccountManager.Shared.AccountService/Login'
+2025-08-01 17:38:32.790 +07:00 [INF] HTTP POST /PureFood.AccountManager.Shared.AccountService/Login responded 200 in 4884.8245 ms
+2025-08-01 17:38:32.801 +07:00 [INF] Request finished HTTP/2 POST http://localhost:30001/PureFood.AccountManager.Shared.AccountService/Login - 200 null application/grpc 4941.8869ms
+2025-08-01 17:38:32.803 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "HEADERS" frame for stream ID 1 with length 59 and flags "END_HEADERS".
+2025-08-01 17:38:32.832 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "DATA" frame for stream ID 1 with length 1149 and flags "NONE".
+2025-08-01 17:38:32.844 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "HEADERS" frame for stream ID 1 with length 15 and flags "END_STREAM, END_HEADERS".
+2025-08-01 17:38:32.854 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:38:32.861 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:39:35.246 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:39:35.263 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:39:57.583 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'Default'
+2025-08-01 17:39:57.625 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IEmailService'
+2025-08-01 17:40:07.612 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:40:07.628 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.3836ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:40:17.639 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:40:17.649 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1152ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:40:27.665 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:40:27.676 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:40:37.697 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:40:37.701 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:40:42.736 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:40:42.747 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:40:47.711 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:40:47.726 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:40:57.745 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:40:57.752 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.101ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:41:07.764 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:41:07.770 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:41:17.777 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:41:17.796 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:41:27.810 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:41:27.827 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:41:37.843 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:41:37.850 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:41:47.865 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:41:47.879 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:41:50.238 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:41:50.251 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:41:57.896 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:41:57.906 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:42:07.924 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:42:07.939 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:42:17.961 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:42:17.974 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:42:27.988 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:42:27.995 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:42:38.012 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:42:38.032 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0329ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:42:48.050 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:42:48.067 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:42:57.737 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:42:57.751 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:42:58.078 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:42:58.089 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:43:08.103 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:43:08.117 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:43:18.136 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:43:18.144 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:43:28.161 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:43:28.170 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:43:38.181 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:43:38.238 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:43:48.261 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:43:48.272 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:43:58.281 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:43:58.294 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:44:05.238 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:44:05.251 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:44:08.315 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:44:08.323 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:44:18.338 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:44:18.342 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:44:28.346 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:44:28.350 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:44:38.363 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:44:38.366 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:44:48.382 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:44:48.413 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:44:58.432 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:44:58.436 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:45:08.447 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:45:08.451 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0087ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:45:12.740 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:45:12.750 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:45:18.469 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:45:18.472 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:45:28.484 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:45:28.492 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:45:38.504 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:45:38.506 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:45:48.511 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:45:48.515 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:45:58.527 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:45:58.530 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:46:08.547 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:46:08.551 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:46:18.567 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:46:18.577 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:46:20.232 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:46:20.281 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:46:28.594 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:46:28.597 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:46:38.609 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:46:38.612 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:46:48.620 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:46:48.624 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:46:58.634 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:46:58.657 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:47:08.667 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:47:08.671 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:47:18.685 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:47:18.689 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:47:27.775 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:47:27.786 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:47:28.703 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:47:28.708 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:47:38.732 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:47:38.738 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:47:48.744 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:47:48.747 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:47:58.759 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:47:58.763 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:48:08.768 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:48:08.771 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:48:18.775 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:48:18.784 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:48:28.788 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:48:28.794 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:48:35.244 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:48:35.248 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:48:38.811 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:48:38.815 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:48:48.820 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:48:48.824 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:48:58.833 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:48:58.860 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:49:08.881 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:49:08.894 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:49:18.935 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:49:18.939 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:49:28.946 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:49:28.958 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:49:38.967 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:49:38.974 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:49:42.731 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:49:42.741 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:49:48.978 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:49:48.985 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:49:59.032 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:49:59.044 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:50:09.067 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:50:09.074 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:50:19.080 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:50:19.084 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:50:29.089 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:50:29.092 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:50:39.105 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:50:39.109 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:50:49.118 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:50:49.121 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:50:50.237 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:50:50.262 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:50:59.135 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:50:59.138 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:51:09.146 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:51:09.156 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:51:19.167 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:51:19.212 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:51:29.230 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:51:29.233 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0006ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:51:39.244 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:51:39.248 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:51:49.265 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:51:49.271 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:51:57.738 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:51:57.746 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:51:59.279 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:51:59.283 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0005ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:52:09.291 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:52:09.311 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:52:19.342 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:52:19.345 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0006ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:52:29.353 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:52:29.396 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:52:39.412 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:52:39.418 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:52:49.433 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:52:49.442 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:52:59.449 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:52:59.457 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:53:05.241 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:53:05.250 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:53:09.472 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:53:09.572 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:53:19.599 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:53:19.613 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:53:29.620 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:53:29.623 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:53:39.641 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:53:39.659 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:53:49.679 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:53:49.695 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:53:59.707 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:53:59.736 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:54:09.757 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:54:09.765 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:54:12.743 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:54:12.761 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:54:19.785 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:54:19.797 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:54:29.818 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:54:29.828 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:54:39.843 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:54:39.850 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:54:49.858 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:54:49.863 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:54:59.872 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:54:59.884 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:55:09.903 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:55:09.923 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:55:19.940 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:55:19.948 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:55:20.236 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:55:20.243 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:55:29.960 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:55:29.972 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:55:39.995 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:55:40.008 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:55:50.022 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:55:50.031 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:56:00.052 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:56:00.057 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:56:10.067 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:56:10.080 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:56:20.097 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:56:20.109 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:56:27.736 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:56:27.750 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:56:30.135 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:56:30.148 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:56:40.174 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:56:40.188 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:56:50.203 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:56:50.214 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:57:00.240 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:57:00.254 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:57:10.271 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:57:10.298 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:57:20.339 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:57:20.364 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:57:30.374 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:57:30.421 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:57:35.245 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:57:35.258 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:57:40.473 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:57:40.482 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:57:50.502 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:57:50.524 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:58:00.545 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:58:00.557 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:58:10.587 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:58:10.610 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:58:20.643 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:58:20.651 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:58:30.673 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:58:30.681 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:58:40.699 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:58:40.706 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:58:42.740 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-08-01 17:58:42.751 +07:00 [VRB] Connection id "0HNEGSU6F4L7B" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-08-01 17:58:50.728 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:58:50.736 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:59:00.758 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:59:00.769 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:59:10.783 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:59:10.793 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:59:20.820 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:59:20.834 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:59:30.857 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:59:30.868 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-01 17:59:40.886 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-01 17:59:40.902 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items

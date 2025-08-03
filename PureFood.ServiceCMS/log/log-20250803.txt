@@ -1,0 +1,1091 @@
+2025-08-03 20:18:49.949 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-03 20:18:50.896 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-08-03 20:18:50.954 +07:00 [DBG] Hosting starting
+2025-08-03 20:18:51.192 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-08-03 20:18:51.249 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-08-03 20:18:51.262 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-08-03 20:18:51.270 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-08-03 20:18:51.280 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-08-03 20:18:51.288 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-08-03 20:18:51.302 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-08-03 20:18:51.321 +07:00 [INF] AppInitHostedService is starting.
+2025-08-03 20:18:51.758 +07:00 [DBG] Middleware loaded
+2025-08-03 20:18:51.779 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16523 B).
+2025-08-03 20:18:51.789 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-03 20:18:51.979 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-03 20:18:51.991 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-03 20:18:52.012 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-03 20:18:52.043 +07:00 [WRN] Overriding address(es) 'https://localhost:7062, http://localhost:5141'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 20:18:52.087 +07:00 [INF] Now listening on: http://[::]:31002
+2025-08-03 20:18:52.093 +07:00 [DBG] Loaded hosting startup assembly PureFood.ServiceCMS
+2025-08-03 20:18:52.099 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-03 20:18:52.103 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-03 20:18:52.108 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-03 20:18:52.128 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-03 20:18:52.142 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-03 20:18:52.256 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 20:18:52.270 +07:00 [INF] Hosting environment: Development
+2025-08-03 20:18:52.275 +07:00 [INF] Content root path: D:\PureFood\PureFood.ServiceCMS
+2025-08-03 20:18:52.280 +07:00 [DBG] Hosting started
+2025-08-03 20:19:22.850 +07:00 [DBG] Connection id "0HNEII1EARM5E" received FIN.
+2025-08-03 20:19:22.872 +07:00 [DBG] Connection id "0HNEII1EARM5E" accepted.
+2025-08-03 20:19:22.914 +07:00 [DBG] Connection id "0HNEII1EARM5E" started.
+2025-08-03 20:19:22.916 +07:00 [DBG] Connection id "0HNEII1EARM5F" accepted.
+2025-08-03 20:19:22.932 +07:00 [DBG] Connection id "0HNEII1EARM5F" started.
+2025-08-03 20:19:22.940 +07:00 [DBG] Connection id "0HNEII1EARM5E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:19:22.953 +07:00 [DBG] Connection id "0HNEII1EARM5E" disconnecting.
+2025-08-03 20:19:22.963 +07:00 [DBG] Connection id "0HNEII1EARM5E" stopped.
+2025-08-03 20:19:22.983 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/User/Login - application/json 74
+2025-08-03 20:19:23.027 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:19:23.042 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:19:23.109 +07:00 [DBG] 1 candidate(s) found for the request path '/api/User/Login'
+2025-08-03 20:19:23.127 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS)' with route pattern 'api/User/Login' is valid for the request path '/api/User/Login'
+2025-08-03 20:19:23.141 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS)'
+2025-08-03 20:19:23.153 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:19:23.176 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:19:23.204 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:19:24.902 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-08-03 20:19:24.925 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:19:24.944 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS)'
+2025-08-03 20:19:24.988 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Login(PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest) on controller PureFood.ServiceCMS.Controllers.UserController (PureFood.ServiceCMS).
+2025-08-03 20:19:25.016 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:19:25.030 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:19:25.041 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:19:25.056 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:19:25.072 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:19:25.089 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.UserController (PureFood.ServiceCMS)
+2025-08-03 20:19:25.736 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.UserController (PureFood.ServiceCMS)
+2025-08-03 20:19:25.771 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest' ...
+2025-08-03 20:19:25.790 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest' using the name '' in request data ...
+2025-08-03 20:19:25.804 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:19:25.829 +07:00 [DBG] Connection id "0HNEII1EARM5F", Request id "0HNEII1EARM5F:00000001": started reading request body.
+2025-08-03 20:19:25.837 +07:00 [DBG] Connection id "0HNEII1EARM5F", Request id "0HNEII1EARM5F:00000001": done reading request body.
+2025-08-03 20:19:25.852 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest'
+2025-08-03 20:19:25.863 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest'.
+2025-08-03 20:19:25.874 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest'.
+2025-08-03 20:19:25.888 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest' ...
+2025-08-03 20:19:25.908 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.User.AccountLoginRequest'.
+2025-08-03 20:19:25.922 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:19:25.933 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:19:25.948 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:19:25.972 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS) with arguments (["AccountLoginRequest { Email = minhquantb00@gmail.com, Password = anhquan123, Recaptcha = , RememberMe = , DeviceInfo = , ExternalLoginConfigId =  }"])
+2025-08-03 20:19:30.818 +07:00 [INF] Service Request host http://localhost:30001 url /PureFood.AccountManager.Shared.AccountService/Login executeTime "00:00:04.7431042"
+2025-08-03 20:19:30.839 +07:00 [VRB] Performing protect operation to key {f6575531-4b03-4247-9d5e-9211490419d6} with purposes ('DataProtectionRedisKey_TYT_SSO_dev', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Cookies', 'v2').
+2025-08-03 20:19:30.866 +07:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-08-03 20:19:31.139 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5153.0108ms.
+2025-08-03 20:19:31.151 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:19:31.164 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:19:31.175 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:19:31.185 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:19:31.196 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:19:31.209 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:19:31.223 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:19:31.236 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:19:31.250 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:19:31.260 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:19:31.292 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:19:31.303 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:19:31.330 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:19:31.338 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:19:31.346 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:19:31.360 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS) in 6270.9194ms
+2025-08-03 20:19:31.370 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.UserController.Login (PureFood.ServiceCMS)'
+2025-08-03 20:19:31.384 +07:00 [INF] HTTP POST /api/User/Login responded 200 in 8328.7280 ms
+2025-08-03 20:19:31.393 +07:00 [DBG] Connection id "0HNEII1EARM5F" completed keep alive response.
+2025-08-03 20:19:31.405 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/User/Login - 200 null application/json; charset=utf-8 8434.1527ms
+2025-08-03 20:20:32.062 +07:00 [DBG] Connection id "0HNEII1EARM5G" accepted.
+2025-08-03 20:20:32.137 +07:00 [DBG] Connection id "0HNEII1EARM5G" received FIN.
+2025-08-03 20:20:32.181 +07:00 [DBG] Connection id "0HNEII1EARM5G" started.
+2025-08-03 20:20:32.182 +07:00 [DBG] Connection id "0HNEII1EARM5H" accepted.
+2025-08-03 20:20:32.201 +07:00 [DBG] Connection id "0HNEII1EARM5G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:20:32.206 +07:00 [DBG] Connection id "0HNEII1EARM5H" started.
+2025-08-03 20:20:32.213 +07:00 [DBG] Connection id "0HNEII1EARM5G" disconnecting.
+2025-08-03 20:20:32.220 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - application/json 18
+2025-08-03 20:20:32.225 +07:00 [DBG] Connection id "0HNEII1EARM5G" stopped.
+2025-08-03 20:20:32.235 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:20:32.249 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:20:32.258 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Get'
+2025-08-03 20:20:32.264 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Get' is valid for the request path '/api/ProductImage/Get'
+2025-08-03 20:20:32.271 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:20:32.276 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:20:32.282 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:20:32.289 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:20:32.372 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:20:32.383 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:20:32.393 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:20:32.406 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:20:32.418 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:20:32.430 +07:00 [INF] Route matched with {action = "Get", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Get(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:20:32.442 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:20:32.453 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:20:32.464 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:20:32.476 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:20:32.489 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:20:32.499 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:20:32.680 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:20:32.694 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:20:32.703 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' using the name '' in request data ...
+2025-08-03 20:20:32.713 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:20:32.727 +07:00 [DBG] Connection id "0HNEII1EARM5H", Request id "0HNEII1EARM5H:00000001": started reading request body.
+2025-08-03 20:20:32.737 +07:00 [DBG] Connection id "0HNEII1EARM5H", Request id "0HNEII1EARM5H:00000001": done reading request body.
+2025-08-03 20:20:32.749 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'
+2025-08-03 20:20:32.760 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:20:32.766 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:20:32.772 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:20:32.778 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:20:32.784 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:32.792 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:32.799 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:20:32.806 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) with arguments (["ProductImageGetRequest { Id =  }"])
+2025-08-03 20:20:33.284 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Get executeTime "00:00:00.4610180"
+2025-08-03 20:20:33.300 +07:00 [ERR] BaseApiController Error Get product image failed: NoErrorCode - Query Id is null or empty
+2025-08-03 20:20:33.312 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 499.7478ms.
+2025-08-03 20:20:33.323 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:33.335 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:33.348 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:33.360 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:33.368 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:20:33.399 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:20:33.418 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:20:33.432 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:20:33.448 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:20:33.467 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:20:33.478 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:20:33.487 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:20:33.497 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:20:33.507 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:33.518 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:33.529 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) in 1030.3098ms
+2025-08-03 20:20:33.538 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:20:33.547 +07:00 [INF] HTTP POST /api/ProductImage/Get responded 200 in 1290.2883 ms
+2025-08-03 20:20:33.555 +07:00 [DBG] Connection id "0HNEII1EARM5H" completed keep alive response.
+2025-08-03 20:20:33.564 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - 200 null application/json; charset=utf-8 1344.2127ms
+2025-08-03 20:20:42.538 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - application/json 21
+2025-08-03 20:20:42.552 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:20:42.564 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:20:42.577 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Get'
+2025-08-03 20:20:42.585 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Get' is valid for the request path '/api/ProductImage/Get'
+2025-08-03 20:20:42.594 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:20:42.602 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:20:42.610 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:20:42.619 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:20:42.630 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:20:42.640 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:20:42.648 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:20:42.657 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:20:42.664 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:20:42.670 +07:00 [INF] Route matched with {action = "Get", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Get(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:20:42.678 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:20:42.686 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:20:42.695 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:20:42.703 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:20:42.711 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:20:42.719 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:20:42.731 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:20:42.745 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:20:42.755 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' using the name '' in request data ...
+2025-08-03 20:20:42.766 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:20:42.777 +07:00 [DBG] Connection id "0HNEII1EARM5H", Request id "0HNEII1EARM5H:00000002": started reading request body.
+2025-08-03 20:20:42.788 +07:00 [DBG] Connection id "0HNEII1EARM5H", Request id "0HNEII1EARM5H:00000002": done reading request body.
+2025-08-03 20:20:42.799 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'
+2025-08-03 20:20:42.810 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:20:42.818 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:20:42.829 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:20:42.839 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:20:42.849 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:42.859 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:42.868 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:20:42.878 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) with arguments (["ProductImageGetRequest { Id = 123 }"])
+2025-08-03 20:20:46.432 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Get executeTime "00:00:03.5437974"
+2025-08-03 20:20:46.439 +07:00 [ERR] BaseApiController Error Get product image failed: NoErrorCode - Could not find stored procedure 'ProductImages_GetById'.
+2025-08-03 20:20:46.445 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3558.3338ms.
+2025-08-03 20:20:46.450 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:46.457 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:20:46.464 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:46.472 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:46.485 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:20:46.498 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:20:46.513 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:20:46.527 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:20:46.541 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:20:46.556 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:20:46.565 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:20:46.572 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:20:46.579 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:20:46.584 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:46.587 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:20:46.590 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) in 3870.7411ms
+2025-08-03 20:20:46.594 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:20:46.602 +07:00 [INF] HTTP POST /api/ProductImage/Get responded 200 in 4027.2517 ms
+2025-08-03 20:20:46.605 +07:00 [DBG] Connection id "0HNEII1EARM5H" completed keep alive response.
+2025-08-03 20:20:46.610 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - 200 null application/json; charset=utf-8 4072.0423ms
+2025-08-03 20:21:25.147 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IAccountService'
+2025-08-03 20:21:35.166 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:21:35.187 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.5396ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:21:45.205 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:21:45.217 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:21:55.241 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:21:55.261 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:22:05.291 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:22:05.299 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:22:15.309 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:22:15.463 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1455ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:22:25.475 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:22:25.485 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:22:32.526 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IProductImageService'
+2025-08-03 20:22:35.505 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:22:35.515 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:22:45.526 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:22:45.546 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:22:55.572 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:22:55.601 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:23:05.622 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:23:05.635 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:23:15.657 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:23:15.672 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:23:25.691 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:23:25.701 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:23:35.711 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:23:35.726 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:23:45.744 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:23:45.762 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:23:55.773 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:23:55.786 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:24:05.807 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:24:05.818 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:24:15.834 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:24:15.854 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:24:25.872 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:24:25.880 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:24:35.894 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:24:35.905 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0201ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:24:45.923 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:24:45.946 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1624ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:24:55.973 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:24:55.982 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:25:05.988 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:25:05.997 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:25:16.005 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:25:16.018 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:25:26.039 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:25:26.051 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:25:36.056 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:25:36.079 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:25:46.085 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:25:46.097 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:25:56.106 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:25:56.120 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:26:06.139 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:26:06.152 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:26:16.165 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:26:16.171 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:26:26.175 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:26:26.188 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:26:36.204 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:26:36.236 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0092ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:26:46.270 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:26:46.306 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0082ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:26:56.322 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:26:56.334 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:27:06.355 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:27:06.367 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1699ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:27:16.387 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:27:16.400 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:27:26.421 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:27:26.437 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:27:36.455 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:27:36.465 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:27:46.472 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:27:46.486 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:27:56.505 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:27:56.516 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:28:06.537 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:28:06.554 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:28:16.559 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:28:16.573 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:28:26.586 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:28:26.604 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:28:36.622 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:28:36.637 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:28:46.655 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:28:46.674 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:28:56.687 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:28:56.706 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:29:06.722 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:29:06.739 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:29:16.752 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:29:16.772 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:29:26.805 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:29:26.822 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:29:36.837 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:29:36.848 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:29:46.854 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:29:46.874 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:29:56.887 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:29:56.904 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:30:06.918 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:30:06.949 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:30:16.960 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:30:16.976 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:30:26.984 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:30:27.005 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:30:37.023 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:30:37.035 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:30:47.046 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:30:47.062 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:30:57.069 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:30:57.087 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.006ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:31:07.103 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:31:07.122 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:31:17.137 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:31:17.149 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:31:27.169 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:31:27.181 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:31:37.200 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:31:37.209 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:31:47.220 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:31:47.237 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:31:57.252 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:31:57.268 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:32:07.285 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:32:07.339 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:32:17.387 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:32:17.400 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:32:27.417 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:32:27.421 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:32:37.435 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:32:37.451 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:32:47.503 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:32:47.519 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:32:57.537 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:32:57.547 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:33:07.569 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:33:07.592 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:33:17.612 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:33:17.632 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:33:27.652 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:33:27.664 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:33:37.685 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:33:37.698 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:33:47.718 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:33:47.731 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:33:57.760 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:33:57.775 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:34:07.785 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:34:07.791 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:34:17.803 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:34:17.818 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:34:27.829 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:34:27.840 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:34:37.853 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:34:37.859 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:34:47.867 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:34:47.885 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:34:57.901 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:34:57.907 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:35:07.927 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2025-08-03 20:35:07.966 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 2 items
+2025-08-03 20:35:25.918 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-03 20:35:26.634 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-08-03 20:35:26.661 +07:00 [DBG] Hosting starting
+2025-08-03 20:35:26.823 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-08-03 20:35:26.863 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-08-03 20:35:26.881 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-08-03 20:35:26.892 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-08-03 20:35:26.901 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-08-03 20:35:26.911 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-08-03 20:35:26.926 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-08-03 20:35:26.937 +07:00 [INF] AppInitHostedService is starting.
+2025-08-03 20:35:27.157 +07:00 [DBG] Middleware loaded
+2025-08-03 20:35:27.169 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16523 B).
+2025-08-03 20:35:27.177 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-03 20:35:27.341 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-03 20:35:27.356 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-03 20:35:27.369 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-03 20:35:27.397 +07:00 [WRN] Overriding address(es) 'https://localhost:7062, http://localhost:5141'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 20:35:27.438 +07:00 [INF] Now listening on: http://[::]:31002
+2025-08-03 20:35:27.446 +07:00 [DBG] Loaded hosting startup assembly PureFood.ServiceCMS
+2025-08-03 20:35:27.457 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-03 20:35:27.470 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-03 20:35:27.481 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-03 20:35:27.526 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-03 20:35:27.538 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-03 20:35:27.666 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 20:35:27.676 +07:00 [INF] Hosting environment: Development
+2025-08-03 20:35:27.691 +07:00 [INF] Content root path: D:\PureFood\PureFood.ServiceCMS
+2025-08-03 20:35:27.790 +07:00 [DBG] Hosting started
+2025-08-03 20:36:22.920 +07:00 [DBG] Connection id "0HNEIIAUB0BT6" received FIN.
+2025-08-03 20:36:22.943 +07:00 [DBG] Connection id "0HNEIIAUB0BT6" accepted.
+2025-08-03 20:36:22.986 +07:00 [DBG] Connection id "0HNEIIAUB0BT6" started.
+2025-08-03 20:36:23.021 +07:00 [DBG] Connection id "0HNEIIAUB0BT7" accepted.
+2025-08-03 20:36:23.034 +07:00 [DBG] Connection id "0HNEIIAUB0BT7" started.
+2025-08-03 20:36:23.034 +07:00 [DBG] Connection id "0HNEIIAUB0BT6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:36:23.045 +07:00 [DBG] Connection id "0HNEIIAUB0BT6" disconnecting.
+2025-08-03 20:36:23.052 +07:00 [DBG] Connection id "0HNEIIAUB0BT6" stopped.
+2025-08-03 20:36:23.064 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - application/json 21
+2025-08-03 20:36:23.084 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:36:23.096 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:36:23.124 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Get'
+2025-08-03 20:36:23.129 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Get' is valid for the request path '/api/ProductImage/Get'
+2025-08-03 20:36:23.151 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:36:23.166 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:36:23.185 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:36:23.220 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:36:23.318 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:36:23.329 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:36:23.363 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:36:23.374 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:36:23.381 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:36:23.400 +07:00 [INF] Route matched with {action = "Get", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Get(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:36:23.454 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:36:23.464 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:36:23.475 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:36:23.485 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:36:23.497 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:36:23.510 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:36:23.626 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:36:23.652 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:36:23.672 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' using the name '' in request data ...
+2025-08-03 20:36:23.684 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:36:23.699 +07:00 [DBG] Connection id "0HNEIIAUB0BT7", Request id "0HNEIIAUB0BT7:00000001": started reading request body.
+2025-08-03 20:36:23.710 +07:00 [DBG] Connection id "0HNEIIAUB0BT7", Request id "0HNEIIAUB0BT7:00000001": done reading request body.
+2025-08-03 20:36:23.723 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'
+2025-08-03 20:36:23.734 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:36:23.744 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:36:23.753 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:36:23.766 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:36:23.831 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:36:23.850 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:36:23.880 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:36:23.891 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) with arguments (["ProductImageGetRequest { Id = 123 }"])
+2025-08-03 20:36:26.250 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Get executeTime "00:00:02.2783186"
+2025-08-03 20:36:26.258 +07:00 [ERR] BaseApiController Error Get product image failed: NoErrorCode - ProductImage with Id 123 not found
+2025-08-03 20:36:26.269 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2365.1838ms.
+2025-08-03 20:36:26.277 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:36:26.286 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:36:26.294 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:36:26.302 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:36:26.310 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:36:26.320 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:36:26.343 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:36:26.352 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:36:26.363 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:36:26.374 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:36:26.394 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:36:26.409 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:36:26.431 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:36:26.447 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:36:26.456 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:36:26.470 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) in 2957.4447ms
+2025-08-03 20:36:26.479 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:36:26.490 +07:00 [INF] HTTP POST /api/ProductImage/Get responded 200 in 3385.1837 ms
+2025-08-03 20:36:26.499 +07:00 [DBG] Connection id "0HNEIIAUB0BT7" completed keep alive response.
+2025-08-03 20:36:26.508 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - 200 null application/json; charset=utf-8 3448.2745ms
+2025-08-03 20:37:34.822 +07:00 [DBG] Connection id "0HNEIIAUB0BT8" accepted.
+2025-08-03 20:37:34.822 +07:00 [DBG] Connection id "0HNEIIAUB0BT8" received FIN.
+2025-08-03 20:37:34.828 +07:00 [DBG] Connection id "0HNEIIAUB0BT9" accepted.
+2025-08-03 20:37:34.828 +07:00 [DBG] Connection id "0HNEIIAUB0BT8" started.
+2025-08-03 20:37:34.839 +07:00 [DBG] Connection id "0HNEIIAUB0BT9" started.
+2025-08-03 20:37:34.842 +07:00 [DBG] Connection id "0HNEIIAUB0BT8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:37:34.847 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - application/json 21
+2025-08-03 20:37:34.856 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:37:34.851 +07:00 [DBG] Connection id "0HNEIIAUB0BT8" disconnecting.
+2025-08-03 20:37:34.861 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:37:34.863 +07:00 [DBG] Connection id "0HNEIIAUB0BT8" stopped.
+2025-08-03 20:37:34.872 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Get'
+2025-08-03 20:37:34.879 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Get' is valid for the request path '/api/ProductImage/Get'
+2025-08-03 20:37:34.886 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:37:34.891 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:37:34.897 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:37:34.903 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:37:34.909 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:37:34.916 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:37:34.922 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:37:34.927 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:37:34.933 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:37:34.938 +07:00 [INF] Route matched with {action = "Get", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Get(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:37:34.945 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:37:34.952 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:37:34.958 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:37:34.966 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:37:34.977 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:37:34.984 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:37:34.991 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:37:35.000 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:37:35.008 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' using the name '' in request data ...
+2025-08-03 20:37:35.018 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:37:35.027 +07:00 [DBG] Connection id "0HNEIIAUB0BT9", Request id "0HNEIIAUB0BT9:00000001": started reading request body.
+2025-08-03 20:37:35.035 +07:00 [DBG] Connection id "0HNEIIAUB0BT9", Request id "0HNEIIAUB0BT9:00000001": done reading request body.
+2025-08-03 20:37:35.043 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'
+2025-08-03 20:37:35.052 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:37:35.062 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:37:35.071 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:37:35.080 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:37:35.090 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:37:35.100 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:37:35.109 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:37:35.120 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) with arguments (["ProductImageGetRequest { Id = 123 }"])
+2025-08-03 20:37:35.340 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Get executeTime "00:00:00.2018559"
+2025-08-03 20:37:35.351 +07:00 [ERR] BaseApiController Error Get product image failed: NoErrorCode - ProductImage with Id 123 not found
+2025-08-03 20:37:35.359 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 222.5359ms.
+2025-08-03 20:37:35.367 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:37:35.377 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:37:35.388 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:37:35.397 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:37:35.406 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:37:35.415 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:37:35.425 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:37:35.434 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:37:35.443 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:37:35.454 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:37:35.466 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:37:35.480 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:37:35.490 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:37:35.499 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:37:35.510 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:37:35.530 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) in 545.9839ms
+2025-08-03 20:37:35.541 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:37:35.549 +07:00 [INF] HTTP POST /api/ProductImage/Get responded 200 in 678.4311 ms
+2025-08-03 20:37:35.555 +07:00 [DBG] Connection id "0HNEIIAUB0BT9" completed keep alive response.
+2025-08-03 20:37:35.563 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - 200 null application/json; charset=utf-8 716.052ms
+2025-08-03 20:38:23.557 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IProductImageService'
+2025-08-03 20:38:33.583 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:38:33.592 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.3191ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:38:43.599 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:38:43.614 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0062ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:38:53.624 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:38:53.636 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:39:03.647 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:39:03.652 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:39:13.656 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:39:13.662 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:39:23.682 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:39:23.704 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0069ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:39:33.728 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:39:33.744 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:39:43.767 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:39:43.782 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0066ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:39:53.800 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:39:53.812 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:03.831 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:40:03.848 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:13.865 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:40:13.875 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:23.896 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:40:23.902 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:33.912 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:40:33.940 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0132ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:43.963 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:40:43.980 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1253ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:51.898 +07:00 [DBG] Connection id "0HNEIIAUB0BTA" received FIN.
+2025-08-03 20:40:51.907 +07:00 [DBG] Connection id "0HNEIIAUB0BTA" accepted.
+2025-08-03 20:40:51.914 +07:00 [DBG] Connection id "0HNEIIAUB0BTA" started.
+2025-08-03 20:40:51.914 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" accepted.
+2025-08-03 20:40:51.924 +07:00 [DBG] Connection id "0HNEIIAUB0BTA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:40:51.929 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" started.
+2025-08-03 20:40:51.935 +07:00 [DBG] Connection id "0HNEIIAUB0BTA" disconnecting.
+2025-08-03 20:40:51.939 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - application/json 131
+2025-08-03 20:40:51.944 +07:00 [DBG] Connection id "0HNEIIAUB0BTA" stopped.
+2025-08-03 20:40:51.955 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:40:51.974 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:40:51.984 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Add'
+2025-08-03 20:40:51.994 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Add' is valid for the request path '/api/ProductImage/Add'
+2025-08-03 20:40:52.004 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:40:52.013 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:40:52.021 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:40:52.030 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:40:52.038 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-08-03 20:40:52.044 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:40:52.050 +07:00 [DBG] Policy authentication schemes Bearer, Cookies did not succeed
+2025-08-03 20:40:52.055 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-03 20:40:52.064 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-03 20:40:52.072 +07:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-08-03 20:40:52.078 +07:00 [INF] HTTP POST /api/ProductImage/Add responded 401 in 93.5211 ms
+2025-08-03 20:40:52.083 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" completed keep alive response.
+2025-08-03 20:40:52.090 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - 401 0 null 150.2318ms
+2025-08-03 20:40:52.102 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000001": started reading request body.
+2025-08-03 20:40:52.108 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000001": done reading request body.
+2025-08-03 20:40:53.993 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:40:54.004 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:40:57.650 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - application/json 131
+2025-08-03 20:40:57.666 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:40:57.674 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:40:57.680 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Add'
+2025-08-03 20:40:57.686 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Add' is valid for the request path '/api/ProductImage/Add'
+2025-08-03 20:40:57.695 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:40:57.700 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:40:57.706 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:40:57.712 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:40:57.721 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:40:57.727 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:40:57.735 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:40:57.740 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:40:57.745 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:40:57.754 +07:00 [INF] Route matched with {action = "Add", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Add(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:40:57.763 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:40:57.769 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:40:57.776 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:40:57.783 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:40:57.789 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:40:57.798 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:40:57.810 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:40:57.821 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' ...
+2025-08-03 20:40:57.836 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' using the name '' in request data ...
+2025-08-03 20:40:57.848 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:40:57.863 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000002": started reading request body.
+2025-08-03 20:40:57.878 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000002": done reading request body.
+2025-08-03 20:40:57.889 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'
+2025-08-03 20:40:57.896 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:40:57.905 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:40:57.911 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' ...
+2025-08-03 20:40:57.920 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:40:57.928 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:40:57.937 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:40:57.944 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:40:57.955 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) with arguments (["ProductImageAddRequest { ProductId = P7643072, ImageUrl = https://example.com/images/pho-ga.jpg, Title = Phở Gà Truyền Thống }"])
+2025-08-03 20:40:59.129 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Add executeTime "00:00:01.1554300"
+2025-08-03 20:40:59.143 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1173.5635ms.
+2025-08-03 20:40:59.156 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:40:59.169 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:40:59.181 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:40:59.194 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:40:59.209 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:40:59.222 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:40:59.236 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:40:59.244 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:40:59.254 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:40:59.270 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:40:59.282 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:40:59.294 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:40:59.307 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:40:59.321 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:40:59.332 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:40:59.343 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) in 1545.2155ms
+2025-08-03 20:40:59.352 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:40:59.361 +07:00 [INF] HTTP POST /api/ProductImage/Add responded 200 in 1681.2267 ms
+2025-08-03 20:40:59.368 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" completed keep alive response.
+2025-08-03 20:40:59.376 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - 200 null application/json; charset=utf-8 1725.3587ms
+2025-08-03 20:41:04.013 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:41:04.030 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:41:14.053 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:41:14.068 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:41:24.081 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:41:24.152 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:41:30.435 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - application/json 126
+2025-08-03 20:41:30.462 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:41:30.472 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:41:30.479 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Add'
+2025-08-03 20:41:30.490 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Add' is valid for the request path '/api/ProductImage/Add'
+2025-08-03 20:41:30.498 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:41:30.507 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:41:30.514 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:41:30.527 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:41:30.541 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:41:30.556 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:41:30.714 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:41:30.755 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:41:30.764 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:41:30.774 +07:00 [INF] Route matched with {action = "Add", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Add(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:41:30.786 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:41:30.797 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:41:30.808 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:41:30.818 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:41:30.828 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:41:30.853 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:41:30.864 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:41:30.875 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' ...
+2025-08-03 20:41:30.886 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' using the name '' in request data ...
+2025-08-03 20:41:30.896 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:41:30.908 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000003": started reading request body.
+2025-08-03 20:41:30.914 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000003": done reading request body.
+2025-08-03 20:41:30.926 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'
+2025-08-03 20:41:30.939 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:41:30.947 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:41:30.962 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' ...
+2025-08-03 20:41:30.992 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:41:31.009 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:31.027 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:31.051 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:41:31.061 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) with arguments (["ProductImageAddRequest { ProductId = P7643072, ImageUrl = https://example.com/images/bun-cha.jpg, Title = Bún Chả Hà Nội }"])
+2025-08-03 20:41:31.306 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Add executeTime "00:00:00.2181331"
+2025-08-03 20:41:31.317 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 231.0287ms.
+2025-08-03 20:41:31.326 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:31.336 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:31.346 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:31.356 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:31.367 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:41:31.377 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:41:31.389 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:41:31.398 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:41:31.410 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:41:31.419 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:41:31.431 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:41:31.439 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:41:31.449 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:41:31.460 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:31.470 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:31.480 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) in 627.1817ms
+2025-08-03 20:41:31.489 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:41:31.497 +07:00 [INF] HTTP POST /api/ProductImage/Add responded 200 in 1017.8994 ms
+2025-08-03 20:41:31.504 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" completed keep alive response.
+2025-08-03 20:41:31.510 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - 200 null application/json; charset=utf-8 1075.6385ms
+2025-08-03 20:41:34.175 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:41:34.207 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0083ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:41:41.926 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - application/json 134
+2025-08-03 20:41:41.944 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:41:41.952 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:41:41.959 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Add'
+2025-08-03 20:41:41.968 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Add' is valid for the request path '/api/ProductImage/Add'
+2025-08-03 20:41:41.976 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:41:41.985 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:41:41.992 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:41:41.999 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:41:42.009 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:41:42.017 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:41:42.025 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:41:42.034 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:41:42.042 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:41:42.051 +07:00 [INF] Route matched with {action = "Add", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Add(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:41:42.060 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:41:42.071 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:41:42.082 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:41:42.093 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:41:42.104 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:41:42.119 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:41:42.131 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:41:42.142 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' ...
+2025-08-03 20:41:42.153 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' using the name '' in request data ...
+2025-08-03 20:41:42.163 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:41:42.175 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000004": started reading request body.
+2025-08-03 20:41:42.191 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000004": done reading request body.
+2025-08-03 20:41:42.201 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'
+2025-08-03 20:41:42.214 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:41:42.231 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:41:42.238 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest' ...
+2025-08-03 20:41:42.245 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageAddRequest'.
+2025-08-03 20:41:42.254 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:42.268 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:42.279 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:41:42.295 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) with arguments (["ProductImageAddRequest { ProductId = P7643072, ImageUrl = https://example.com/images/com-tam.jpg, Title = Cơm Tấm Sườn Bì Chả }"])
+2025-08-03 20:41:42.493 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Add executeTime "00:00:00.1834884"
+2025-08-03 20:41:42.500 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 192.2045ms.
+2025-08-03 20:41:42.508 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:42.518 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:41:42.526 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:42.535 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:42.543 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:41:42.554 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:41:42.564 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:41:42.573 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:41:42.582 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:41:42.591 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:41:42.603 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:41:42.613 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:41:42.623 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:41:42.633 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:42.643 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:41:42.660 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS) in 540.9682ms
+2025-08-03 20:41:42.669 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Add (PureFood.ServiceCMS)'
+2025-08-03 20:41:42.678 +07:00 [INF] HTTP POST /api/ProductImage/Add responded 200 in 718.3166 ms
+2025-08-03 20:41:42.685 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" completed keep alive response.
+2025-08-03 20:41:42.693 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Add - 200 null application/json; charset=utf-8 766.7371ms
+2025-08-03 20:41:44.236 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:41:44.246 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:41:54.266 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:41:54.276 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:42:04.296 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:42:04.305 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:42:14.321 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:42:14.330 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:42:17.005 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - application/json 27
+2025-08-03 20:42:17.020 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:42:17.034 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:42:17.045 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Get'
+2025-08-03 20:42:17.056 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Get' is valid for the request path '/api/ProductImage/Get'
+2025-08-03 20:42:17.069 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:42:17.083 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:42:17.101 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:42:17.110 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:42:17.119 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:42:17.127 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:42:17.136 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:42:17.143 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:42:17.153 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:42:17.161 +07:00 [INF] Route matched with {action = "Get", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Get(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:42:17.173 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:42:17.184 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:42:17.194 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:42:17.204 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:42:17.213 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:42:17.222 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:42:17.231 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:42:17.240 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:42:17.252 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' using the name '' in request data ...
+2025-08-03 20:42:17.262 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:42:17.272 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000005": started reading request body.
+2025-08-03 20:42:17.281 +07:00 [DBG] Connection id "0HNEIIAUB0BTB", Request id "0HNEIIAUB0BTB:00000005": done reading request body.
+2025-08-03 20:42:17.290 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'
+2025-08-03 20:42:17.301 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:42:17.310 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:42:17.321 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest' ...
+2025-08-03 20:42:17.332 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetRequest'.
+2025-08-03 20:42:17.340 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:42:17.352 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:42:17.367 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:42:17.375 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) with arguments (["ProductImageGetRequest { Id = PI3679724 }"])
+2025-08-03 20:42:17.609 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Get executeTime "00:00:00.2217184"
+2025-08-03 20:42:17.618 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 231.8194ms.
+2025-08-03 20:42:17.628 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:42:17.641 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:42:17.651 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:42:17.659 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:42:17.669 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:42:17.677 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:42:17.687 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:42:17.694 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:42:17.703 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:42:17.710 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:42:17.719 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:42:17.727 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:42:17.736 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:42:17.744 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:42:17.754 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:42:17.764 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS) in 541.3001ms
+2025-08-03 20:42:17.773 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Get (PureFood.ServiceCMS)'
+2025-08-03 20:42:17.781 +07:00 [INF] HTTP POST /api/ProductImage/Get responded 200 in 735.6760 ms
+2025-08-03 20:42:17.790 +07:00 [DBG] Connection id "0HNEIIAUB0BTB" completed keep alive response.
+2025-08-03 20:42:17.798 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Get - 200 null application/json; charset=utf-8 792.4655ms
+2025-08-03 20:42:24.350 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:42:24.357 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:42:34.365 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:42:34.371 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:42:44.379 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:42:44.389 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:42:54.399 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:42:54.418 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:43:04.443 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:43:04.455 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:43:14.476 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:43:14.497 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:43:24.519 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:43:24.557 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:43:34.565 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:43:34.588 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0112ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:43:44.609 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:43:44.618 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:43:54.631 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:43:54.639 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:44:04.657 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:44:04.667 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:44:14.684 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:44:14.693 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:44:24.715 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:44:24.725 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:44:34.735 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:44:34.740 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0215ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:44:36.610 +07:00 [DBG] Connection id "0HNEIIAUB0BTC" received FIN.
+2025-08-03 20:44:36.621 +07:00 [DBG] Connection id "0HNEIIAUB0BTC" accepted.
+2025-08-03 20:44:36.627 +07:00 [DBG] Connection id "0HNEIIAUB0BTC" started.
+2025-08-03 20:44:36.628 +07:00 [DBG] Connection id "0HNEIIAUB0BTD" accepted.
+2025-08-03 20:44:36.639 +07:00 [DBG] Connection id "0HNEIIAUB0BTC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:44:36.644 +07:00 [DBG] Connection id "0HNEIIAUB0BTD" started.
+2025-08-03 20:44:36.649 +07:00 [DBG] Connection id "0HNEIIAUB0BTC" disconnecting.
+2025-08-03 20:44:36.654 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Gets - application/json 74
+2025-08-03 20:44:36.659 +07:00 [DBG] Connection id "0HNEIIAUB0BTC" stopped.
+2025-08-03 20:44:36.668 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:44:36.689 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:44:36.695 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Gets'
+2025-08-03 20:44:36.702 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Gets' is valid for the request path '/api/ProductImage/Gets'
+2025-08-03 20:44:36.710 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)'
+2025-08-03 20:44:36.718 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:44:36.726 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:44:36.734 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:44:36.743 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:44:36.750 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:44:36.759 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:44:36.767 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:44:36.775 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)'
+2025-08-03 20:44:36.785 +07:00 [INF] Route matched with {action = "Gets", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Gets(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:44:36.799 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:44:36.810 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:44:36.822 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:44:36.838 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:44:36.850 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:44:36.860 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:44:36.871 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:44:36.885 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest' ...
+2025-08-03 20:44:36.893 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest' using the name '' in request data ...
+2025-08-03 20:44:36.900 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:44:36.907 +07:00 [DBG] Connection id "0HNEIIAUB0BTD", Request id "0HNEIIAUB0BTD:00000001": started reading request body.
+2025-08-03 20:44:36.914 +07:00 [DBG] Connection id "0HNEIIAUB0BTD", Request id "0HNEIIAUB0BTD:00000001": done reading request body.
+2025-08-03 20:44:36.921 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'
+2025-08-03 20:44:36.928 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'.
+2025-08-03 20:44:36.934 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'.
+2025-08-03 20:44:36.941 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest' ...
+2025-08-03 20:44:36.950 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'.
+2025-08-03 20:44:36.957 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:44:36.967 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:44:36.973 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:44:36.979 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS) with arguments (["ProductImageGetsRequest { Keyword = PI3679724, PageIndex = 1, PageSize = 10 }"])
+2025-08-03 20:44:37.534 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Gets executeTime "00:00:00.5461356"
+2025-08-03 20:44:37.547 +07:00 [ERR] BaseApiController Error Get product images failed: NoErrorCode - Conversion failed when converting the nvarchar value 'PI3679724' to data type int.
+2025-08-03 20:44:37.554 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 570.0594ms.
+2025-08-03 20:44:37.564 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:44:37.574 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:44:37.584 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:44:37.592 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:44:37.600 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:44:37.607 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:44:37.616 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:44:37.623 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:44:37.631 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:44:37.638 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:44:37.646 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:44:37.654 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:44:37.662 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:44:37.671 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:44:37.684 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:44:37.695 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS) in 834.5771ms
+2025-08-03 20:44:37.702 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)'
+2025-08-03 20:44:37.711 +07:00 [INF] HTTP POST /api/ProductImage/Gets responded 200 in 1015.9527 ms
+2025-08-03 20:44:37.718 +07:00 [DBG] Connection id "0HNEIIAUB0BTD" completed keep alive response.
+2025-08-03 20:44:37.727 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Gets - 200 null application/json; charset=utf-8 1072.8593ms
+2025-08-03 20:44:44.752 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:44:44.764 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:44:54.780 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:44:54.789 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:45:04.930 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:45:04.941 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:45:14.950 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:45:14.961 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:45:24.972 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:45:24.986 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:45:35.014 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:45:35.024 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:45:45.063 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:45:45.073 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:45:55.079 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:45:55.094 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:46:05.113 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:46:05.126 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:46:15.145 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:46:15.154 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:46:25.162 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:46:25.178 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:46:35.196 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:46:35.204 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:46:45.212 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:46:45.222 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:46:55.242 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:46:55.260 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:47:05.275 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:47:05.287 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:47:15.297 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:47:15.309 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:47:25.322 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:47:25.343 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:47:35.362 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:47:35.374 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:47:45.380 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:47:45.387 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:47:55.394 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:47:55.423 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:48:05.446 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:48:05.466 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:48:15.476 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:48:15.483 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:48:25.495 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:48:25.533 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:48:35.546 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:48:35.558 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0066ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:48:39.008 +07:00 [DBG] Connection id "0HNEIIAUB0BTE" accepted.
+2025-08-03 20:48:39.008 +07:00 [DBG] Connection id "0HNEIIAUB0BTE" received FIN.
+2025-08-03 20:48:39.027 +07:00 [DBG] Connection id "0HNEIIAUB0BTE" started.
+2025-08-03 20:48:39.028 +07:00 [DBG] Connection id "0HNEIIAUB0BTF" accepted.
+2025-08-03 20:48:39.045 +07:00 [DBG] Connection id "0HNEIIAUB0BTE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 20:48:39.051 +07:00 [DBG] Connection id "0HNEIIAUB0BTF" started.
+2025-08-03 20:48:39.057 +07:00 [DBG] Connection id "0HNEIIAUB0BTE" disconnecting.
+2025-08-03 20:48:39.068 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:31002/api/ProductImage/Gets - application/json 74
+2025-08-03 20:48:39.073 +07:00 [DBG] Connection id "0HNEIIAUB0BTE" stopped.
+2025-08-03 20:48:39.083 +07:00 [VRB] All hosts are allowed.
+2025-08-03 20:48:39.099 +07:00 [DBG] POST requests are not supported
+2025-08-03 20:48:39.106 +07:00 [DBG] 1 candidate(s) found for the request path '/api/ProductImage/Gets'
+2025-08-03 20:48:39.115 +07:00 [DBG] Endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)' with route pattern 'api/ProductImage/Gets' is valid for the request path '/api/ProductImage/Gets'
+2025-08-03 20:48:39.123 +07:00 [DBG] Request matched endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)'
+2025-08-03 20:48:39.131 +07:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-08-03 20:48:39.138 +07:00 [VRB] This request accepts compression.
+2025-08-03 20:48:39.148 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:48:39.156 +07:00 [DBG] Successfully validated the token.
+2025-08-03 20:48:39.167 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-08-03 20:48:39.177 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-08-03 20:48:39.192 +07:00 [DBG] Authorization was successful.
+2025-08-03 20:48:39.200 +07:00 [INF] Executing endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)'
+2025-08-03 20:48:39.208 +07:00 [INF] Route matched with {action = "Gets", controller = "ProductImage"}. Executing controller action with signature System.Threading.Tasks.Task`1[PureFood.BaseReadModels.BaseResponse`1[System.Object]] Gets(PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest) on controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS).
+2025-08-03 20:48:39.220 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-03 20:48:39.233 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-03 20:48:39.244 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-08-03 20:48:39.255 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-03 20:48:39.266 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-08-03 20:48:39.278 +07:00 [DBG] Executing controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:48:39.295 +07:00 [DBG] Executed controller factory for controller PureFood.ServiceCMS.Controllers.ProductImageController (PureFood.ServiceCMS)
+2025-08-03 20:48:39.311 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest' ...
+2025-08-03 20:48:39.332 +07:00 [DBG] Attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest' using the name '' in request data ...
+2025-08-03 20:48:39.350 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-03 20:48:39.369 +07:00 [DBG] Connection id "0HNEIIAUB0BTF", Request id "0HNEIIAUB0BTF:00000001": started reading request body.
+2025-08-03 20:48:39.376 +07:00 [DBG] Connection id "0HNEIIAUB0BTF", Request id "0HNEIIAUB0BTF:00000001": done reading request body.
+2025-08-03 20:48:39.389 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'
+2025-08-03 20:48:39.402 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'.
+2025-08-03 20:48:39.417 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'.
+2025-08-03 20:48:39.435 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest' ...
+2025-08-03 20:48:39.454 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PureFood.ServiceCMS.Shared.Requests.Product.ProductImageGetsRequest'.
+2025-08-03 20:48:39.472 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:48:39.490 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:48:39.510 +07:00 [INF] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS) - Validation state: "Valid"
+2025-08-03 20:48:39.522 +07:00 [VRB] Executing action method PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS) with arguments (["ProductImageGetsRequest { Keyword = PI3679724, PageIndex = 1, PageSize = 10 }"])
+2025-08-03 20:48:39.822 +07:00 [INF] Service Request host http://localhost:30008 url /PureFood.ProductManager.Shared.ProductImageService/Gets executeTime "00:00:00.2849523"
+2025-08-03 20:48:39.832 +07:00 [INF] Executed action method PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 296.8364ms.
+2025-08-03 20:48:39.840 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:48:39.850 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-08-03 20:48:39.860 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:48:39.872 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:48:39.889 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:48:39.909 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-03 20:48:39.933 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-03 20:48:39.951 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2025-08-03 20:48:39.968 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-03 20:48:39.984 +07:00 [INF] Executing ObjectResult, writing value of type 'PureFood.BaseReadModels.BaseResponse`1[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 20:48:40.006 +07:00 [VRB] Response compression is available for this Content-Type.
+2025-08-03 20:48:40.022 +07:00 [DBG] The response will be compressed with 'br'.
+2025-08-03 20:48:40.041 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-08-03 20:48:40.060 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:48:40.073 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2025-08-03 20:48:40.091 +07:00 [INF] Executed action PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS) in 812.8454ms
+2025-08-03 20:48:40.107 +07:00 [INF] Executed endpoint 'PureFood.ServiceCMS.Controllers.ProductImageController.Gets (PureFood.ServiceCMS)'
+2025-08-03 20:48:40.124 +07:00 [INF] HTTP POST /api/ProductImage/Gets responded 200 in 1017.4735 ms
+2025-08-03 20:48:40.137 +07:00 [DBG] Connection id "0HNEIIAUB0BTF" completed keep alive response.
+2025-08-03 20:48:40.154 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:31002/api/ProductImage/Gets - 200 null application/json; charset=utf-8 1085.8451ms
+2025-08-03 20:48:45.571 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:48:45.581 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:48:55.601 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:48:55.607 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:49:05.629 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:49:05.644 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:49:15.662 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:49:15.673 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:49:25.691 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:49:25.702 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:49:35.715 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:49:35.726 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:49:45.740 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:49:45.758 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:49:55.776 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:49:55.782 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:50:05.800 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:50:05.805 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0006ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:50:15.820 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:50:15.826 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:50:25.838 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:50:25.848 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-08-03 20:50:35.857 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-08-03 20:50:35.876 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items

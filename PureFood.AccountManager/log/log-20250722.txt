@@ -1,0 +1,67 @@
+2025-07-22 10:54:05.505 +07:00 [INF] RPC services being provided by PureFood.AccountManager.Services.AccountService: 10
+2025-07-22 10:54:05.557 +07:00 [INF] RPC services being provided by PureFood.AccountManager.Services.OTPLimitService: 1
+2025-07-22 10:54:05.952 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-22 10:58:15.615 +07:00 [INF] RPC services being provided by PureFood.AccountManager.Services.AccountService: 10
+2025-07-22 10:58:15.687 +07:00 [INF] RPC services being provided by PureFood.AccountManager.Services.OTPLimitService: 1
+2025-07-22 10:58:15.748 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-22 10:58:15.821 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-22 10:58:15.839 +07:00 [INF] RPC services being provided by ProtoBuf.Grpc.Reflection.ReflectionService: 1
+2025-07-22 10:58:15.850 +07:00 [DBG] Hosting starting
+2025-07-22 10:58:15.959 +07:00 [DBG] Found key {f6575531-4b03-4247-9d5e-9211490419d6}.
+2025-07-22 10:58:15.977 +07:00 [DBG] Considering key {f6575531-4b03-4247-9d5e-9211490419d6} with expiration date 2025-10-09 01:11:18Z as default key.
+2025-07-22 10:58:15.990 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-22 10:58:15.999 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-07-22 10:58:16.007 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA512'.
+2025-07-22 10:58:16.015 +07:00 [DBG] Using key {f6575531-4b03-4247-9d5e-9211490419d6} as the default key.
+2025-07-22 10:58:16.025 +07:00 [DBG] Key ring with default key {f6575531-4b03-4247-9d5e-9211490419d6} was loaded during application startup.
+2025-07-22 10:58:16.033 +07:00 [INF] AppInitHostedService is starting.
+2025-07-22 10:58:16.176 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.account topic
+2025-07-22 10:58:16.183 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-22 10:58:16.189 +07:00 [INF] RabbitMQ Client is null
+2025-07-22 10:58:16.195 +07:00 [INF] RabbitMQ Client is closed
+2025-07-22 10:58:16.201 +07:00 [INF] RabbitMQ Client is trying to connect
+2025-07-22 10:58:16.289 +07:00 [INF] RabbitMQ persistent connection acquired a connection 127.0.0.1 and is subscribed to failure events
+2025-07-22 10:58:16.308 +07:00 [INF] RegisterExchange 127.0.0.1 dev.exchange.notify fanout
+2025-07-22 10:58:16.315 +07:00 [INF] RegisterExchange:dev.exchange.notify
+2025-07-22 10:58:16.324 +07:00 [INF] RegisterExchange:dev.exchange.account
+2025-07-22 10:58:16.334 +07:00 [INF] RegisterQueue:dev.queue.account --- dev.routing.account
+2025-07-22 10:58:16.353 +07:00 [INF] CreateConsumerChannel: dev.queue.account
+2025-07-22 10:58:16.359 +07:00 [INF] RabbitMqPrefetchCount: 10
+2025-07-22 10:58:16.383 +07:00 [INF] AccountHostedService is starting
+2025-07-22 10:58:16.398 +07:00 [DBG] Middleware loaded
+2025-07-22 10:58:16.405 +07:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16531 B).
+2025-07-22 10:58:16.410 +07:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-22 10:58:16.472 +07:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-07-22 10:58:16.481 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-22 10:58:16.488 +07:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-22 10:58:16.516 +07:00 [WRN] Overriding address(es) 'https://localhost:7241, http://localhost:5277'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-07-22 10:58:16.528 +07:00 [INF] Now listening on: http://[::]:30001
+2025-07-22 10:58:16.536 +07:00 [DBG] Loaded hosting startup assembly PureFood.AccountManager
+2025-07-22 10:58:16.543 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-22 10:58:16.552 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-22 10:58:16.559 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-22 10:58:16.572 +07:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-22 10:58:16.581 +07:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-07-22 10:58:16.632 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-22 10:58:16.638 +07:00 [INF] Hosting environment: Development
+2025-07-22 10:58:16.642 +07:00 [INF] Content root path: D:\PureFood\PureFood.AccountManager
+2025-07-22 10:58:16.648 +07:00 [DBG] Hosting started
+2025-07-22 11:00:15.936 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'Default'
+2025-07-22 11:00:25.963 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:00:25.980 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.5006ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:00:35.991 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:00:36.002 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:00:46.009 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:00:46.025 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:00:56.040 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:00:56.049 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:01:06.061 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:01:06.076 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:01:16.090 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:01:16.107 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:01:26.123 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:01:26.138 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0137ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:01:36.156 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:01:36.166 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-07-22 11:01:46.190 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-07-22 11:01:46.204 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items

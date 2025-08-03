@@ -1,0 +1,6 @@
+@PureFood.SystemManager_HostAddress = http://localhost:5195
+
+GET {{PureFood.SystemManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
