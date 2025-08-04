@@ -15,3 +15,5 @@ PureFood.AccountManager/appsettings.Development.json PureFood.CartManager/appset
 bin/
 obj/
 .vs/
+log/
+

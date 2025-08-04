@@ -175,6 +175,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFood.CartManager", "Pur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFood.CartManager.Shared", "PureFood.CartManager.Shared\PureFood.CartManager.Shared.csproj", "{D5999145-D479-4405-A1A3-92E32E237BF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFood.CustomerApi.Shared", "PureFood.CustomerApi.Shared\PureFood.CustomerApi.Shared.csproj", "{900319C5-9114-4FAA-826F-0C4EBBF321DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -409,6 +411,10 @@ Global
 		{D5999145-D479-4405-A1A3-92E32E237BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5999145-D479-4405-A1A3-92E32E237BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5999145-D479-4405-A1A3-92E32E237BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900319C5-9114-4FAA-826F-0C4EBBF321DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900319C5-9114-4FAA-826F-0C4EBBF321DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900319C5-9114-4FAA-826F-0C4EBBF321DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900319C5-9114-4FAA-826F-0C4EBBF321DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -495,6 +501,7 @@ Global
 		{022E5D8B-C855-4073-A9B9-76A3318AB77F} = {88C7C75F-0D81-4B8C-8064-783942D14FA8}
 		{66D0BE0F-03A7-489F-BEEC-45E743DE54DA} = {C09DDBC5-C639-4369-B7E1-E46C7733A060}
 		{D5999145-D479-4405-A1A3-92E32E237BF1} = {C09DDBC5-C639-4369-B7E1-E46C7733A060}
+		{900319C5-9114-4FAA-826F-0C4EBBF321DC} = {531A943C-3CAD-4A59-96EB-88AE075A8FEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EDAF6E9-D8E2-4C8B-92C1-4270797C2358}
