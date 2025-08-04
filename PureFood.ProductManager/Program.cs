@@ -18,6 +18,7 @@ BaseProgram.Run(args, services =>
     services.AddTransient<IProductRepository, ProductRepository>();
     services.AddTransient<IProductImageRepository, ProductImageRepository>();
     services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
+    services.AddTransient<IProductReviewRepository, ProductReviewRepository>();
 
     services.AddSingleton<IESRepository>(sp =>
     {
