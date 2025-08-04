@@ -26,6 +26,11 @@ namespace PureFood.ProductCommands
     [ProtoInclude(1400, typeof(ProductTypeGetQuery))]
     [ProtoInclude(1500, typeof(ProductTypeGetsQuery))]
     [ProtoInclude(1600, typeof(ProductTypeGetByIdsQuery))]
+    [ProtoInclude(1700, typeof(ProductReviewAddCommand))]
+    [ProtoInclude(1800, typeof(ProductReviewChangeCommand))]
+    [ProtoInclude(1900, typeof(ProductReviewGetByIdsQuery))]
+    [ProtoInclude(2000, typeof(ProductReviewGetQuery))]
+    [ProtoInclude(2100, typeof(ProductReviewGetsQuery))]
     public record ProductBaseCommand : BaseCommand
     {
         [ProtoMember(101)] public override string? ObjectId { get; set; }

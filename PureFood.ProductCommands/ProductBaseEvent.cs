@@ -16,6 +16,8 @@ namespace PureFood.ProductCommands
     [ProtoInclude(500, typeof(ProductImageChangeEvent))]
     [ProtoInclude(600, typeof(ProductTypeAddEvent))]
     [ProtoInclude(700, typeof(ProductTypeChangeEvent))]
+    [ProtoInclude(800, typeof (ProductTypeChangeEvent))]
+    [ProtoInclude(900, typeof(ProductTypeAddEvent))]
     public record ProductBaseEvent : Event
     {
         [ProtoMember(1)] public sealed override string EventId { get; set; } = Guid.CreateVersion7().ToString("N");
