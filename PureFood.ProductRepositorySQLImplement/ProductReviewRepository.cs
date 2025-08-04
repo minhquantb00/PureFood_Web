@@ -23,7 +23,7 @@ namespace PureFood.ProductRepositorySQLImplement
             {
                 DynamicParameters parameters = new DynamicParameters();
                 parameters.Add("@Id", id, System.Data.DbType.String);
-                var data = await connection.QueryFirstOrDefaultAsync<RProductReview?>("[ProductReview_GetById]", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                var data = await connection.QueryFirstOrDefaultAsync<RProductReview?>("[ProductReviews_GetById]", parameters, commandType: System.Data.CommandType.StoredProcedure);
                 return data;
             });
         }
@@ -34,7 +34,7 @@ namespace PureFood.ProductRepositorySQLImplement
             {
                 DynamicParameters parameters = new DynamicParameters();
                 parameters.Add("@Ids", string.Join(",", ids), DbType.String);
-                var data = await connection.QueryAsync<RProductReview>("[ProductReview_GetByIds]", parameters, commandType: CommandType.StoredProcedure);
+                var data = await connection.QueryAsync<RProductReview>("[ProductReviews_GetByIds]", parameters, commandType: CommandType.StoredProcedure);
                 return data.ToArray();
             });
         }
@@ -47,7 +47,7 @@ namespace PureFood.ProductRepositorySQLImplement
                 parameters.Add("@Keyword", query.Keyword, DbType.String);
                 parameters.Add("@PageIndex", query.PageIndex, DbType.Int32);
                 parameters.Add("@PageSize", query.PageSize, DbType.Int32);
-                var data = await connection.QueryAsync<RProductReview>("[ProductReview_Gets]", parameters, commandType: CommandType.StoredProcedure);
+                var data = await connection.QueryAsync<RProductReview>("[ProductReviews_Gets]", parameters, commandType: CommandType.StoredProcedure);
                 return data.ToArray();
             });
         }

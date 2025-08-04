@@ -31,7 +31,6 @@ namespace PureFood.CustomerApi.Controllers
                 var result = await productService.Add(new ProductCommands.Commands.ProductReviewAddCommand
                 {
                     Comment = request.Comment,
-                    Id = request.Id,
                     LoginUid = userInfo.LoginUid,
                     ProcessUid = userInfo.Id,
                     ProductId = request.ProductId,

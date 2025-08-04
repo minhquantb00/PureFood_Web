@@ -28,6 +28,7 @@ namespace PureFood.ProductManager.Services
                     return;
                 }
 
+                command.Id = "PR" + new Random().Next(1000000, 9999999).ToString();
                 var productReview = new ProductReview(command);
                 await productReviewRepository.Add(productReview);
                 EventAdd(productReview.ToAddEvent());
