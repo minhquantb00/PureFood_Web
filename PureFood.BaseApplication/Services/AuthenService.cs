@@ -67,6 +67,7 @@ namespace PureFood.BaseApplication.Services
             return ConvertOutput<AccountLoginInfo>(value);
         }
 
+
         public AccountLoginInfo? GetLoginInfoSync(string key)
         {
             if (string.IsNullOrEmpty(key))

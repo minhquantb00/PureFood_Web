@@ -27,7 +27,6 @@ namespace PureFood.CartManager.Services
                     return;
                 }
 
-                var userInfo = contextService.UserInfoRequired();
                 command.Id = "C" + new Random().Next(100000, 999999).ToString();
                 var cart = new Cart(command);
 
