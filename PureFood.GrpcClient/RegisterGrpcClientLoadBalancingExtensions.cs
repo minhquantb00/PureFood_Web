@@ -18,6 +18,7 @@ public static partial class GrpcClientResolver
         services.AccountManagerRegisterGrpcClient();
         services.EmailManagerRegisterGrpcClient();
         services.ProductManagerRegisterGrpcClient();
+        services.CartManagerRegisterGrpcClient();
         return services;
     }
 

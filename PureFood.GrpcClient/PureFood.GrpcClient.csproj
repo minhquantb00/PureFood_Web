@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PureFood.AccountManager.Shared\PureFood.AccountManager.Shared.csproj" />
+    <ProjectReference Include="..\PureFood.CartManager.Shared\PureFood.CartManager.Shared.csproj" />
     <ProjectReference Include="..\PureFood.Config\PureFood.Config.csproj" />
     <ProjectReference Include="..\PureFood.EmailManager.Shared\PureFood.EmailManager.Shared.csproj" />
     <ProjectReference Include="..\PureFood.ProductManager.Shared\PureFood.ProductManager.Shared.csproj" />

@@ -77,6 +77,7 @@ public enum ConfigSettingEnum
     SystemManagerUrl,
     ProductManagerUrl,
     LocationManagerUrl,
+    CartManagerUrl,
     NotificationManagerUrl,
     WarehouseManagerUrl,
     SurveyManagerUrl,

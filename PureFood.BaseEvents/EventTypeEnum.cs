@@ -18,6 +18,7 @@ namespace PureFood.BaseEvents
         Notification = 8,
         NotificationMessage = 9,
         Sms = 10,
+        Cart = 11,
         Warehouse,
         FileRemove,
         HistorySyncToES,

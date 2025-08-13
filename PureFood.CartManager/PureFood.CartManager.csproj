@@ -10,4 +10,17 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CartRepositorySQLImplement\PureFood.CartRepositorySQLImplement.csproj" />
+    <ProjectReference Include="..\PureFood.BaseApplication.Api\PureFood.BaseApplication.Api.csproj" />
+    <ProjectReference Include="..\PureFood.BaseApplication\PureFood.BaseApplication.csproj" />
+    <ProjectReference Include="..\PureFood.CartManager.Shared\PureFood.CartManager.Shared.csproj" />
+    <ProjectReference Include="..\PureFood.CartRepository\PureFood.CartRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
 </Project>

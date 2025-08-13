@@ -7,14 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ServiceModel.Primitives" Version="8.1.2" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PureFood.BaseCommands\PureFood.BaseCommands.csproj" />
-    <ProjectReference Include="..\PureFood.CartCommands\PureFood.CartCommands.csproj" />
+    <ProjectReference Include="..\CartRepositorySQLImplement\PureFood.CartRepositorySQLImplement.csproj" />
+    <ProjectReference Include="..\PureFood.BaseRepositories\PureFood.BaseRepositories.csproj" />
     <ProjectReference Include="..\PureFood.CartDomains\PureFood.CartDomains.csproj" />
-    <ProjectReference Include="..\PureFood.CartReadModels\PureFood.CartReadModels.csproj" />
   </ItemGroup>
 
 </Project>

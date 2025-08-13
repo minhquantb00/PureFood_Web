@@ -1,23 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+using CartRepositorySQLImplement;
+using PureFood.CartManager.Services;
+using PureFood.CartManager.Shared;
+using PureFood.CartRepository;
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+BaseProgram.Run(args, services =>
 {
-    app.MapOpenApi();
-}
+    services.AddTransient<ICartRepository, CartRepository>();
+    services.AddTransient<ICartItemRepository, CartItemRepository>();
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+    services.AddTransient<ICartService, CartService>();
+    services.AddTransient<ICartItemService, CartItemService>();
+    return services;
+}, endpoints =>
+{
+    endpoints.MapGrpcService<CartService>();
+    endpoints.MapGrpcService<CartItemService>();
+});
