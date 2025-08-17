@@ -24,7 +24,18 @@ public enum ExternalLoginProviderEnum
     Microsoft = 16,
     Zalo = 32,
 }
-
+public enum OrderStatus
+{
+    New = 0,
+    Processing = 1,
+    Completed = 2,
+    Cancelled = 3,
+    Refunded = 4,
+    Failed = 5,
+    OnHold = 6,
+    PendingPayment = 7,
+    AwaitingShipment = 8
+}
 public enum PageTypeEnum
 {
     Home = 1,
