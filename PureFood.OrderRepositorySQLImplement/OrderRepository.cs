@@ -1,4 +1,5 @@
-﻿using PureFood.BaseRepositories;
+﻿using Dapper;
+using PureFood.BaseRepositories;
 using PureFood.EnumDefine;
 using PureFood.OrderCommands.Queries;
 using PureFood.OrderDomains;
@@ -16,34 +17,39 @@ namespace PureFood.OrderRepositorySQLImplement
     : SqlDbBaseRepository<Order>(dbConnectionFactory),
         IOrderRepository, ISqlDbBaseRepository<Order>
     {
-        public Task<ROrder?> GetById(string id)
+        public async Task<ROrder?> GetById(string id)
         {
-            throw new NotImplementedException();
+            return await DbConnectionFactory.WithConnection(async connection =>
+            {
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@Id", id, System.Data.DbType.String);
+                var data = await connection.QueryFirstOrDefaultAsync<ROrder>("[Orders_GetById]", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                return data;
+            });
         }
 
-        public Task<ROrder[]> GetByIds(string[] ids)
+        public async Task<ROrder[]> GetByIds(string[] ids)
         {
-            throw new NotImplementedException();
+            return await DbConnectionFactory.WithConnection(async connection =>
+            {
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@Ids", string.Join(",", ids), System.Data.DbType.String);
+                var data = await connection.QueryAsync<ROrder>("[Orders_GetByIds]", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                return data.ToArray();
+            });
         }
 
-        public Task<ROrder[]> Gets(OrderGetsQuery query)
+        public async Task<ROrder[]> Gets(OrderGetsQuery query)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<ROrder[]> GetsByStatus(OrderStatus status)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<ROrder[]> GetsByStatusAndUserId(OrderStatus status, string userId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<ROrder[]> GetsByUserId(string userId)
-        {
-            throw new NotImplementedException();
+            return await DbConnectionFactory.WithConnection(async connection =>
+            {
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@Keyword", query.Keyword, System.Data.DbType.String);
+                parameters.Add("@PageSize", query.PageSize, System.Data.DbType.Int32);
+                parameters.Add("@PageIndex", query.PageIndex, System.Data.DbType.Int32);
+                var data = await connection.QueryAsync<ROrder>("[Orders_Gets]", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                return data.ToArray();
+            });
         }
     }
 }

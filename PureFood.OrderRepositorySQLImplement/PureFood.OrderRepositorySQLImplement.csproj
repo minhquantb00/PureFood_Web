@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PureFood.BaseRepositories\PureFood.BaseRepositories.csproj" />
     <ProjectReference Include="..\PureFood.OrderDomains\PureFood.OrderDomains.csproj" />
     <ProjectReference Include="..\PureFood.OrderRepository\PureFood.OrderRepository.csproj" />

@@ -16,8 +16,5 @@ namespace PureFood.OrderRepository
         Task<ROrder?> GetById(string id);
         Task<ROrder[]> GetByIds(string[] ids);
         Task<ROrder[]> Gets(OrderGetsQuery query);
-        Task<ROrder[]> GetsByUserId(string userId);
-        Task<ROrder[]> GetsByStatus(OrderStatus status);
-        Task<ROrder[]> GetsByStatusAndUserId(OrderStatus status, string userId);
     }
 }
