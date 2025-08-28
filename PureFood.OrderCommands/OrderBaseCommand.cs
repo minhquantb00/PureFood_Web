@@ -1,5 +1,7 @@
 ﻿using ProtoBuf;
 using PureFood.BaseCommands;
+using PureFood.OrderCommands.Commands;
+using PureFood.OrderCommands.Queries;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,11 @@ using System.Threading.Tasks;
 namespace PureFood.OrderCommands
 {
     [ProtoContract]
+    [ProtoInclude(200, typeof(OrderGetsQuery))]
+    [ProtoInclude(300, typeof(OrderGetByIdQuery))]
+    [ProtoInclude(400, typeof(OrderGetByIdsQuery))]
+    [ProtoInclude(500, typeof(OrderAddCommand))]
+    [ProtoInclude(600, typeof(OrderChangeCommand))]
     public record OrderBaseCommand : BaseCommand
     {
         [ProtoMember(101)] public override string? ObjectId { get; set; }

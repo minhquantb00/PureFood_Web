@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PureFood.BaseRepositories\PureFood.BaseRepositories.csproj" />
+    <ProjectReference Include="..\PureFood.OrderCommands\PureFood.OrderCommands.csproj" />
     <ProjectReference Include="..\PureFood.OrderDomains\PureFood.OrderDomains.csproj" />
+    <ProjectReference Include="..\PureFood.OrderReadModels\PureFood.OrderReadModels.csproj" />
   </ItemGroup>
 
 </Project>

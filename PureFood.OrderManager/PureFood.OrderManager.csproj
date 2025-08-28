@@ -13,6 +13,14 @@
   <ItemGroup>
     <ProjectReference Include="..\PureFood.BaseApplication.Api\PureFood.BaseApplication.Api.csproj" />
     <ProjectReference Include="..\PureFood.BaseApplication\PureFood.BaseApplication.csproj" />
+    <ProjectReference Include="..\PureFood.ESRepositories\PureFood.ESRepositories.csproj" />
+    <ProjectReference Include="..\PureFood.OrderManager.Shared\PureFood.OrderManager.Shared.csproj" />
+    <ProjectReference Include="..\PureFood.OrderRepositorySQLImplement\PureFood.OrderRepositorySQLImplement.csproj" />
+    <ProjectReference Include="..\PureFood.OrderRepository\PureFood.OrderRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\" />
   </ItemGroup>
 
 </Project>

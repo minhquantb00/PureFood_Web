@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace PureFood.OrderReadModels
 {
     [ProtoContract]
-    public record ROder : OrderBaseReadModel
+    public record ROrder : OrderBaseReadModel
     {
         [ProtoMember(1)] public string Id { get; set; }
         [ProtoMember(2)] public OrderStatus OrderStatus { get; set; }

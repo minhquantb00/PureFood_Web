@@ -1,5 +1,6 @@
 ﻿using ProtoBuf;
 using PureFood.BaseEvents;
+using PureFood.OrderCommands.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ using System.Threading.Tasks;
 namespace PureFood.OrderCommands
 {
     [ProtoContract]
+    [ProtoInclude(200, typeof(OrderAddEvent))]
+    [ProtoInclude(300, typeof(OrderChangeEvent))]
     public record OrderBaseEvent : Event
     {
         [ProtoMember(1)] public sealed override string EventId { get; set; } = Guid.CreateVersion7().ToString("N");
